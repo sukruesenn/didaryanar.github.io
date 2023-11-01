@@ -1,0 +1,946 @@
+@media (min-width: 575px){
+    /* Education Section */
+    .education-section .box{
+        width: 361px!important;
+    }
+    /* #Education Section */
+}
+
+@media (max-width: 1600px){
+    /* Home Section */
+    .home-section-container{
+        padding-top: 180px;
+    }
+    .home-carousel{
+        margin-block: 50px;
+    }
+    .home-section .owl-theme .owl-dots{
+        right: -40px;
+    }
+    /* #Home Section */
+
+    /* Education Section */
+    .education-section{
+        margin-top: 70px;
+    }
+    .education-section .education-section-title{
+        margin-bottom: 20px;
+    }
+    .education-section .btn-classic{
+        margin-bottom: 50px;
+    }
+    /* #Education Section */
+
+    
+    /* Document Section */
+    .document-section{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    /* #Document Section */
+
+    /* Highlights Section */
+    .highlights-section .owl-dots{
+        right: -10px;
+    }
+    /* #Highlights Section */
+    
+    /* FAQ Section */
+    .faq-section .accordion-item:last-child{
+        margin-bottom: 70px;
+    }
+    .faq-section h1{
+        margin-top: 70px;
+    }
+    /* #FAQ Section */
+}
+
+@media (max-width: 1520px){
+     /* Home Section */
+    .home-section .owl-theme .owl-dots{
+        right: -20px;
+    }
+     /* #Home Section */
+}
+
+@media (max-width: 1460px){
+    /* General */
+    h1{
+        font-size: 50px;
+    }
+    /* #General */
+    
+    /* Home Section */
+   .home-section .owl-theme .owl-dots{
+       position: relative;
+       right: auto;
+       left: auto;
+       flex-direction: row;
+       transform: translateY(0);
+       top: 0;
+    }
+    .home-section .owl-theme .owl-dots .owl-dot span{
+        width: 30px;
+        height: 10px;
+    }
+    .home-section .owl-theme .owl-dots .owl-dot.active span{
+        width: 45px;
+        height: 10px;
+    }
+    .home-section .owl-theme .owl-nav.disabled + .owl-dots{
+        margin-top: 60px;
+    }
+    /* #Home Section */
+}
+
+@media (max-width: 1440px){
+    /* General */
+    h2{
+        font-size: 38px;
+    }
+    /* #General */
+    
+    /* Highlights Section */
+    .highlights-section{
+        height: 700px!important;
+    }
+    .highlights-section .owl-dots{
+        right: -30px;
+    }
+    .highlights-section .highlights-header .titles{
+        gap: 15px;
+    }
+    .highlights-section .highlights-content{
+        margin-top: 25px;
+        gap: 30px;
+    }
+    .highlights-section .highlights-education{
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+    .highlights-section .owl-dots{
+        right: 10px;
+    }
+    .highlights-section .figure-wrapper{
+        width: 480px;
+        height: 660px;
+    }
+    /* #Highlights Section */
+
+    /* Footer */
+    footer .footer-bottom .payment-methods{
+        width: 52%;
+    }
+    /* #Footer */
+}
+
+@media (max-width: 1400px){
+    /* Footer */
+    footer .footer-bottom .payment-methods .box:first-child{
+        margin-left: 0;
+    }
+    footer .footer-bottom .payment-methods .box{
+        margin-right: 0;
+    }
+    footer .footer-bottom .payment-methods{
+        justify-content: space-between;
+        padding-inline: 25px;
+    }
+    /* #Footer */
+}
+
+@media (max-width: 1280px){
+    /* Home Section */
+    .home-section{
+        padding-bottom: 40px;
+    }
+    .employee-box:hover .employee-box-content{
+        right: -45px;
+    }
+    .employee-box .employee-information{
+        padding-inline: 10px;
+    }
+    .employee-title{
+        font-size: 38px;
+        padding-right: 25px;
+    }
+    .home-carousel{
+        margin-block: 35px;
+    }
+    .home-section .owl-theme .owl-nav.disabled + .owl-dots{
+        margin-top: 35px;
+    }
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 90%!important;
+    }
+    .employee-subtitle{
+        bottom: 60px;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 35px;
+    }
+    /* #Home Section */
+
+    /* Highlights Section */
+    .highlights-section .figure-wrapper{
+        width: 440px;
+        height: 610px;
+    }
+    .highlights-section .figure-wrapper img{
+        bottom: -90px;
+    }
+    .highlights-section .box .box-content h3{
+        padding-inline: 30px;
+    }
+    /* #Highlights Section */
+
+    /* Footer */
+    footer .footer-bottom .social-media-icons{
+        left: 0;
+    }
+    footer .footer-bottom .payment-methods{
+        width: 55%;
+    }
+    footer .footer-bottom .social-media-icons a{
+        font-size: 18px;
+    }
+    footer .row .col-md-6.col-lg-2:nth-child(2){
+        margin-left: 5%;
+    }
+    footer .row .col-md-6.col-lg-2:nth-child(4){
+        margin-left: 3%;
+    }
+    footer .row .logo-col{
+        width: 16.66666667%;
+    }
+    footer .row .col-md-6.col-lg-2:last-child{
+        margin-left: 5%;
+    }
+    footer .footer-content .links-wrapper a{
+        text-wrap: nowrap;
+    }
+    /* #Footer */
+}
+
+@media (max-width: 1200px){
+    /* General */
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    .btn-classic{
+        padding: 8px 28px;
+    }
+    header nav .menu-wrapper a.login-btn{
+        padding: 10px 28px;
+    }
+    /* #General */
+
+    /* Home Section */
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 85%!important;
+    }
+    .employee-title{
+        font-size: 36px;
+        padding-right: 35px;
+    }
+    .employee-subtitle{
+        bottom: 70px;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 55px;
+    }
+    /* #Home Section */
+}
+
+@media (max-width: 1150px){
+    /* Home Section */
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 100%!important;
+    }
+    .employee-title{
+        font-size: 40px;
+        padding-left: 10px;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 5px;
+    }
+    /* #Home Section */
+
+    /* Footer */
+    footer .footer-bottom .payment-methods .box img{
+        width: 100%;
+        height: 25px;
+    }
+    footer .footer-bottom .payment-methods{
+        width: 50%;
+    }
+    /* #Footer */
+}
+
+@media (max-width: 1080px){
+    /* Home Section */
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 90%!important;
+    }
+    .employee-title{
+        font-size: 36px;
+        padding-left: 10px;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 35px;
+    }
+    /* #Home Section */
+
+    /* Footer */
+    footer .row .col-md-6.col-lg-2:nth-child(2){
+        margin-left: 4%;
+    }
+    /* #Footer */
+}
+
+@media (max-width: 1024px){
+    /* Highlights Section */
+    .highlights-section .figure-wrapper{
+        display: none;
+    }
+    .highlights-section .highlights-content{
+        gap: 10px;
+    }
+    .highlights-section .highlights-content .box img{
+        width: 35px;
+        height: 35px;
+    }
+    .highlights-section .box .box-content h3{
+        padding-inline: 15px;
+    }
+    .highlights-section .highlights-header .titles{
+        gap: 5px;
+    }
+    .highlights-section{
+        height: clamp(450px, 71.615vw, 550px)!important;
+        margin-bottom: 70px;
+    }
+    .lr-wrapper .left{
+        width: 100%;
+    }
+    .highlights-section .highlights-content{
+        justify-content: normal;
+        gap: 30px;
+    }
+    .highlights-section .box .box-content h3{
+        font-size: 20px;
+    }
+    .highlights-section .owl-dots{
+        position: relative;
+        flex-direction: row;
+        top: 0;
+        right: auto;
+        transform: translateY(0);
+    }
+    .highlights-section .owl-dots .owl-dot span{
+        width: 30px;
+        height: 10px;
+    }
+    .highlights-section .owl-dots .owl-dot.active span{
+        width: 45px;
+        height: 10px;
+    }
+    /* #Highlights Section */
+
+    /* FAQ Section */
+    .faq-section .accordion-collapse svg{
+        width: 100%;
+    }
+    /* #FAQ Section */
+}
+
+@media (max-width: 1000px){
+    /* Home Section */
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 85%!important;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 55px;
+    }
+    /* #Home Section */
+}
+
+@media (max-width: 999px){
+    /* Home Section */
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 100%!important;
+    }
+    .employee-title{
+        font-size: 40px;
+    }
+    .employee-subtitle{
+        bottom: 55px;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 0;
+    }
+    /* #Home Section */
+}
+
+@media (max-width: 991px){
+    /* Header */
+    header .menu-wrapper{
+        display: none!important;
+    }
+    .mobile-nav,
+    .hamburger{
+        display: block;
+    }
+    #defaultLogo{
+        height: 80px;
+    }
+    /* #Header */
+
+    /* Highlights Section */
+    .highlights-section .highlights-content{
+        justify-content: space-between;
+    }
+    .highlights-section .box .box-content h3{
+        font-size: 18px;
+    }
+    .highlights-section .figure-wrapper{
+        width: 300px;
+        height: 410px;
+    }
+    .highlights-section .figure-wrapper img{
+        bottom: -25px;
+    }
+    /* #Highlights Section */
+
+    /* Footer */
+    footer .row .col-md-6.col-lg-2:nth-child(2),
+    footer .row .col-md-6.col-lg-2:nth-child(4),
+    footer .row .col-md-6.col-lg-2:last-child{
+        margin-left: 0;
+    }
+    footer .row .logo-col{
+        position: absolute;
+        right: 30px;
+        top: -1px;
+    }
+    footer .footer-bottom{
+        flex-wrap: wrap;
+    }
+    footer .footer-bottom .copyright-text,
+    footer .footer-bottom .social-media-icons{
+        order: 2;
+        margin-bottom: 35px;
+        margin-right: 20px;
+    }
+    footer .footer-bottom .payment-methods{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    /* #Footer */
+}
+
+@media (max-width: 950px){
+    /* Highlights Section */
+    /* #Highlights Section */
+}
+
+@media (max-width: 800px){
+    /* Home Section */
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 90%!important;
+    }
+    .employee-title{
+        font-size: 36px;
+    }
+    .employee-subtitle{
+        bottom: 55px;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 35px;
+    }
+    /* #Home Section */
+}
+
+@media (max-width: 767px){
+    /* Footer */
+    footer .row .logo-col{
+        right: 50px;
+    }
+    /* #Footer */
+}
+
+@media (max-width: 720px){
+    /* Highlights Section */
+    .highlights-section .highlights-content{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    /* #Highlights Section */
+}
+
+@media (max-width: 700px){
+    /* Home Section */
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 85%!important;
+    }
+    .employee-subtitle{
+        bottom: 80px;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 55px;
+    }
+    /* #Home Section */
+}
+
+@media (max-width: 660px){
+    /* Highlights Section */
+    .highlights-section{
+        height: clamp(450px, 83.333vw, 550px)!important;
+    }
+    /* #Highlights Section */
+}
+
+@media (max-width: 650px){
+    /* Home Section */
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 80%!important;
+    }
+    .employee-subtitle{
+        bottom: 120px;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 80px;
+    }
+    /* #Home Section */
+
+    /* Highlights Section */
+    .highlights-section .highlights-content{
+        gap: 20px;
+    }
+    .highlights-section .box .box-content h3{
+        font-size: 18px;
+    }
+    /* #Highlights Section */
+
+    /* FAQ Section */
+    .faq-section .accordion-button{
+        padding: 29px 25px;
+    }
+    .faq-section .accordion-collapse{
+        padding-inline: 20px
+    }
+    /* #FAQ Section */
+}
+
+@media (max-width: 600px){
+    /* Home Section */
+    .employee-box .employee-box-content{
+        width: 100%;
+        height: 100%;
+    }
+    .employee-box .employee-box-content img{
+        position: absolute;
+        width: 60%!important;
+        height: 90%;
+        bottom: 0;
+        right: 50px;
+        object-fit: cover;
+    }
+    .employee-box:hover .employee-box-content{
+        right: -25px;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 70px;
+    }
+    .employee-title{
+        font-size: 34px;
+    }
+    /* #Home Section */
+
+    /* Highlights Section */
+    .highlights-section{
+        height: auto!important;
+    }
+    /* #Highlights Section */
+}
+
+@media (max-width: 599px){
+    /* Home Section */
+    .employee-box .employee-box-content{
+        width: auto;
+        height: auto;
+    }
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 100%!important;
+        height: 100%;
+    }
+    .employee-box .employee-box-content img{
+        position: static;
+    }
+    .employee-subtitle{
+        bottom: 55px;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 0;
+    }
+    .employee-box:hover .employee-box-content{
+        right: -40px;
+    }
+    .employee-title{
+        font-size: 36px;
+    }
+    /* #Home Section */
+}
+
+@media (max-width: 575px){
+    /* Highlights Section */
+    .highlights-section .highlights-header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .highlights-section .highlights-header .titles{
+        margin-bottom: 15px;
+    }
+    .highlights-section .box .box-content h3{
+        font-size: 20px;
+    }
+    .highlights-section .highlights-content{
+        margin-top: 30px;
+        gap: 0;
+    }
+    .highlights-section .highlights-content .box{
+        width: 35%;
+        margin-left: 11%;
+        margin-bottom: 15px;
+    }
+    .highlights-section .highlights-education{
+        text-align: center;
+        margin-top: 20px;
+    }
+    /* #Highlights Section */
+
+    /* FAQ Section */
+    .faq-section .accordion-button h3{
+        font-size: 18px;
+        padding-inline: 0;
+        text-align: left;
+    }
+    .faq-section .accordion-collapse{
+        padding-inline: 5px;
+    }
+    .faq-section .accordion-collapse svg{
+        margin-bottom: 25px;
+    }
+    .faq-section .accordion-body li{
+        font-size: 14px;
+    }
+    /* #FAQ Section */
+
+    /* Footer */
+    footer .footer-content .row{
+        padding-top: 240px;
+    }
+    footer .row .logo-col{
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    footer .row .col-md-6.col-lg-2{
+        text-align: center;
+    }
+    footer .footer-content .links-wrapper{
+        margin-top: 0;
+    }
+    footer .row .col-md-6.col-lg-2{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    footer .row .col-md-6.col-lg-2:last-child{
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+    footer .footer-content .links-wrapper .link:last-child{
+        margin-bottom: 0;
+    }
+    footer .row .col-md-6.col-lg-2{
+        border-bottom: 2px solid rgba(0, 0, 0, .1);
+    }
+    footer .footer-bottom{
+        margin-top: 20px;
+        justify-content: center;
+    }
+    footer .footer-bottom .copyright-text,
+    footer .footer-bottom .social-media-icons{
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    /* #Footer */
+}
+
+@media (max-width: 559px){
+    /* Home Section */
+    .employee-box{
+        margin-inline: auto;
+    }
+    /* #Home Section */
+}
+
+@media (max-width: 530px){
+    /* Highlights Section */
+    .highlights-section .highlights-content .box{
+        width: 36%;
+        margin-left: 10%;
+        flex-grow: 1;
+    }
+    .highlights-section .highlights-content .box .content-title{
+        text-wrap: nowrap;
+    }
+    /* #Highlights Section */
+}
+
+@media (max-width: 480px){
+    /* General */
+    h1{
+        font-size: 34px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    /* #General */
+
+    /* Header */
+    #defaultLogo,
+    .mobile-nav .mobile-nav-header .header-logo img{
+        height: 70px;
+    }
+    /* #Header */
+
+    /* Mobile Nav */
+    .mobile-nav{
+        width: 300px;
+    }
+    .mobile-nav .mobile-nav-content a{
+        font-size: 20px;
+    }
+    /* #Mobile Nav */
+
+    /* Home Section */
+    .home-section{
+        height: 100vh;
+    }
+    .home-section-container{
+        padding-top: 160px;
+    }
+    .home-carousel{
+        margin-block: 25px;
+    }
+    .home-section .owl-theme .owl-nav.disabled + .owl-dots{
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 80%!important;
+    }
+    .employee-subtitle{
+        bottom: 120px;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 75px;
+    }
+    /* #Home Section */
+
+    /* Education Section */
+    .education-section{
+        margin-top: 40px;
+    }
+    .education-section .btn-classic{
+        margin-bottom: 30px;
+    }
+    /* #Education Section */
+
+    /* Document Section */
+    .document-section .box-wrapper .box-img .box-icon{
+        width: 55px;
+    }
+    .document-section{
+        margin-bottom: 40px;
+    }
+    /* #Document Section */
+
+    /* Highlights Section */
+    .highlights-section{
+        margin-bottom: 40px;
+    }
+    .highlights-section .highlights-content .box{
+        margin-left: 0;
+        justify-content: flex-end;
+    }
+    .highlights-section .highlights-content .box:nth-child(1){
+        justify-content: flex-start;
+    }
+    .highlights-section .highlights-content .box:nth-child(3){
+        justify-content: flex-start;
+    }
+    .highlights-section .box .box-bg img{
+        height: 350px;
+        object-fit: cover;
+    }
+    /* #Highlights Section */
+
+    /* FAQ Section */
+    .faq-section h1{
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    .faq-section .accordion-item:last-child{
+        margin-bottom: 40px;
+    }
+    /* #FAQ Section */
+
+    /* Footer */
+    footer .footer-bottom .payment-methods{
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+    footer .footer-bottom .payment-methods .box img{
+        height: auto;
+    }
+    footer .footer-bottom .copy-text{
+        text-align: center;
+    }
+    /* #Footer */
+}
+
+@media (max-width: 425px){
+    /* General */
+    .btn-classic{
+        padding: 6px 25px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    /* #General */
+    
+    /* Education Section */
+    .education-section{
+        margin-top: 25px;
+    }
+    /* #Education Section */
+
+    /* Document Section */
+    .document-section{
+        margin-top: 60px;
+        margin-bottom: 25px;
+    }
+    /* #Document Section */
+    
+    /* Highlights Section */
+    .highlights-section{
+        margin-bottom: 25px;
+    }
+    .highlights-section .highlights-content .box{
+        margin-left: -2%;
+    }
+    .highlights-section .box .box-content h3{
+        height: 50px;
+    }
+    /* #Highlights Section */
+
+    /* FAQ Section */
+    .faq-section h1{
+        margin-top: 30px;
+    }
+    .faq-section .accordion-item:last-child{
+        margin-bottom: 30px;
+    }
+    /* #FAQ Section */
+}
+
+@media (max-width: 390px){
+    /* Highlights Section */
+    .highlights-section .box .box-bg img{
+        height: 300px;
+    }
+    /* #Highlights Section */
+
+    /* FAQ Section */
+    .faq-section .accordion-button h3{
+        font-size: 16px;
+    }
+    /* #FAQ Section */
+}
+
+@media (max-width: 375px){
+    /* General */
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    /* #General */
+    
+    /* Header */
+    #defaultLogo,
+    .mobile-nav .mobile-nav-header .header-logo img{
+        height: 65px;
+    }
+    /* #Header */
+
+    /* Home */
+    .home-carousel{
+        margin-block: 25px;
+    }
+    .home-section .owl-theme .owl-nav.disabled + .owl-dots{
+        margin-top: 25px;
+    }
+    /* #Home */
+}
+
+@media (max-width: 350px){
+    /* Highlights Section */
+    .highlights-section .box .box-content h3{
+        height: 75px;
+    }
+    /* #Highlights Section */
+}
+
+@media (max-width: 330px){
+    /* Home Section */
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 75%!important;
+    }
+    .employee-box:hover .employee-subtitle{
+        bottom: 95px;
+    }
+    /* #Home Section */
+}
+
+@media (max-width: 300px){
+    /* Mobile Nav */
+    .mobile-nav{
+        width: 100%;
+    }
+    /* #Mobile Nav */
+}

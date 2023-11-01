@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+    <title>Didar Yanar Akademi | Ana Sayfa</title>
+</head>
+<body>
+    <nav class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-wrapper">
+            <div class="mobile-nav-header">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="images/header/logo-black.svg" alt="Didar Yanar Akademi">
+                    </a>
+                </div>
+            </div>
+            <div class="mobile-nav-content">
+                <a href="index.html" class="nav-item">Ana Sayfa</a>
+                <a href="kurumsal.html" class="nav-item">Kurumsal</a>
+                <a href="egitimlerimiz.html" class="nav-item">Eğitimlerimiz</a>
+                <a href="egitmenlerimiz.html" class="nav-item">Eğitmenlerimiz</a>
+                <a href="iletisim.html" class="nav-item">İletişim Bilgileri</a>
+                <a href="#" class="nav-item login-btn login-btn-black wow fadeIn" data-wow-delay=".6s">
+                    <img src="images/header/lock-2.svg" alt="Lock">
+                    Öğrenci Girişi
+                </a>
+            </div>
+            <div class="mobile-nav-footer">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+    <header>
+        <div class="container">
+            <nav class="nav d-flex align-items-center">
+                <div class="logo-wrapper wow fadeIn" data-wow-delay=".1s">
+                    <a href="index.html">
+                        <img id="defaultLogo" src="images/header/logo.svg" alt="Logo">
+                        <img id="logo-black" src="images/header/logo-black.svg" alt="Logo">
+                    </a>
+                </div>
+
+                <div class="hamburger" id="menuBtn">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                
+                <div class="menu-wrapper d-flex align-items-center">
+                    <a href="kurumsal.html" class="menu-item wow fadeIn" data-wow-delay=".2s">Kurumsal</a>
+                    <a href="egitimlerimiz.html" class="menu-item wow fadeIn" data-wow-delay=".3s">Eğitimlerimiz</a>
+                    <a href="egitmenlerimiz.html" class="menu-item wow fadeIn" data-wow-delay=".4s">Eğitmenlerimiz</a>
+                    <a href="#" class="menu-item wow fadeIn" data-wow-delay=".5s">İletişim Bilgileri</a>
+                    <a href="#" class="menu-item login-btn wow fadeIn" data-wow-delay=".6s">
+                        <img src="images/header/lock.svg" alt="Lock">
+                        Öğrenci Girişi
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="home-section">
+            <div class="home-section-bg">
+                <div class="overlay"></div>
+            </div>
+            <div class="home-section-container container">
+                <div class="row">
+                    <h1 class="home-title wow fadeInDown" data-wow-delay=".3s">Pastacılık dünyasında <span>yeni bir yolculuğa başlayın</span></h1>
+                    <div class="home-carousel owl-carousel owl-theme wow fadeInDown" data-wow-delay=".2s">
+                        <div class="employee-box">
+                            <div class="employee-box-bg">
+                                <img src="images/employee/employee-bg.png" class="emloyee-img" alt="Employee Background">
+                            </div>
+                            <div class="employee-box-content">
+                                <img src="images/employee/employee-1.png" alt="Employee">
+                            </div>
+                            <div class="employee-information">
+                                <h2 class="employee-title">Ali Altun</h2>
+                                <h3 class="employee-subtitle d-flex flex-column align-items-start">Ali Altun<span>Pastry Chef</span></h3>
+                            </div>
+                            <a href="#" class="employee-arrow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="arrow right">
+                                    <path id="Vector 190 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M0.46967 4.46967C0.176776 4.76256 0.176776 5.23744 0.469669 5.53033L4.46967 9.53033C4.76256 9.82322 5.23744 9.82322 5.53033 9.53033C5.82322 9.23744 5.82322 8.76256 5.53033 8.46967L2.81066 5.75L13 5.75C13.4142 5.75 13.75 5.41421 13.75 5C13.75 4.58579 13.4142 4.25 13 4.25L2.81066 4.25L5.53033 1.53033C5.82322 1.23744 5.82322 0.762564 5.53033 0.46967C5.23744 0.176777 4.76256 0.176777 4.46967 0.46967L0.46967 4.46967Z" fill="#E0ABAB"/>
+                                    </g>
+                                </svg>
+                            </a>
+                            <div class="employee-overlay"></div>
+                        </div>
+
+                        <div class="employee-box">
+                            <div class="employee-box-bg">
+                                <img src="images/employee/employee-bg.png" class="emloyee-img" alt="Employee Background">
+                            </div>
+                            <div class="employee-box-content">
+                                <img src="images/employee/employee-2.png" alt="Employee">
+                            </div>
+                            <div class="employee-information">
+                                <h2 class="employee-title">Emre Akkaya</h2>
+                                <h3 class="employee-subtitle d-flex flex-column align-items-start">Emre Akkaya<span>Pastry Chef</span></h3>
+                            </div>
+                            <a href="#" class="employee-arrow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="arrow right">
+                                    <path id="Vector 190 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M0.46967 4.46967C0.176776 4.76256 0.176776 5.23744 0.469669 5.53033L4.46967 9.53033C4.76256 9.82322 5.23744 9.82322 5.53033 9.53033C5.82322 9.23744 5.82322 8.76256 5.53033 8.46967L2.81066 5.75L13 5.75C13.4142 5.75 13.75 5.41421 13.75 5C13.75 4.58579 13.4142 4.25 13 4.25L2.81066 4.25L5.53033 1.53033C5.82322 1.23744 5.82322 0.762564 5.53033 0.46967C5.23744 0.176777 4.76256 0.176777 4.46967 0.46967L0.46967 4.46967Z" fill="#E0ABAB"/>
+                                    </g>
+                                </svg>
+                            </a>
+                            <div class="employee-overlay"></div>
+                        </div>
+
+                        <div class="employee-box">
+                            <div class="employee-box-bg">
+                                <img src="images/employee/employee-bg.png" class="emloyee-img" alt="Employee Background">
+                            </div>
+                            <div class="employee-box-content">
+                                <img src="images/employee/employee-3.png" alt="Employee">
+                            </div>
+                            <div class="employee-information">
+                                <h2 class="employee-title">Didar Yanar</h2>
+                                <div class="bottom-title">
+                                    <h3 class="employee-subtitle d-flex flex-column align-items-start">Didar Yanar<span>Pastry Chef</span></h3>
+                                </div>
+                            </div>
+                            <a href="#" class="employee-arrow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="arrow right">
+                                    <path id="Vector 190 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M0.46967 4.46967C0.176776 4.76256 0.176776 5.23744 0.469669 5.53033L4.46967 9.53033C4.76256 9.82322 5.23744 9.82322 5.53033 9.53033C5.82322 9.23744 5.82322 8.76256 5.53033 8.46967L2.81066 5.75L13 5.75C13.4142 5.75 13.75 5.41421 13.75 5C13.75 4.58579 13.4142 4.25 13 4.25L2.81066 4.25L5.53033 1.53033C5.82322 1.23744 5.82322 0.762564 5.53033 0.46967C5.23744 0.176777 4.76256 0.176777 4.46967 0.46967L0.46967 4.46967Z" fill="#E0ABAB"/>
+                                    </g>
+                                </svg>
+                            </a>
+                            <div class="employee-overlay"></div>
+                        </div>
+
+                        <div class="employee-box">
+                            <div class="employee-box-bg">
+                                <img src="images/employee/employee-bg.png" class="emloyee-img" alt="Employee Background">
+                            </div>
+                            <div class="employee-box-content">
+                                <img src="images/employee/employee-1.png" alt="Employee">
+                            </div>
+                            <div class="employee-information">
+                                <h2 class="employee-title">Ali Altun</h2>
+                                <h3 class="employee-subtitle d-flex flex-column align-items-start">Ali Altun<span>Pastry Chef</span></h3>
+                            </div>
+                            <a href="#" class="employee-arrow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="arrow right">
+                                    <path id="Vector 190 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M0.46967 4.46967C0.176776 4.76256 0.176776 5.23744 0.469669 5.53033L4.46967 9.53033C4.76256 9.82322 5.23744 9.82322 5.53033 9.53033C5.82322 9.23744 5.82322 8.76256 5.53033 8.46967L2.81066 5.75L13 5.75C13.4142 5.75 13.75 5.41421 13.75 5C13.75 4.58579 13.4142 4.25 13 4.25L2.81066 4.25L5.53033 1.53033C5.82322 1.23744 5.82322 0.762564 5.53033 0.46967C5.23744 0.176777 4.76256 0.176777 4.46967 0.46967L0.46967 4.46967Z" fill="#E0ABAB"/>
+                                    </g>
+                                </svg>
+                            </a>
+                            <div class="employee-overlay"></div>
+                        </div>
+
+                        <div class="employee-box">
+                            <div class="employee-box-bg">
+                                <img src="images/employee/employee-bg.png" class="emloyee-img" alt="Employee Background">
+                            </div>
+                            <div class="employee-box-content">
+                                <img src="images/employee/employee-2.png" alt="Employee">
+                            </div>
+                            <div class="employee-information">
+                                <h2 class="employee-title">Emre Akkaya</h2>
+                                <h3 class="employee-subtitle d-flex flex-column align-items-start">Emre Akkaya<span>Pastry Chef</span></h3>
+                            </div>
+                            <a href="#" class="employee-arrow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="arrow right">
+                                    <path id="Vector 190 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M0.46967 4.46967C0.176776 4.76256 0.176776 5.23744 0.469669 5.53033L4.46967 9.53033C4.76256 9.82322 5.23744 9.82322 5.53033 9.53033C5.82322 9.23744 5.82322 8.76256 5.53033 8.46967L2.81066 5.75L13 5.75C13.4142 5.75 13.75 5.41421 13.75 5C13.75 4.58579 13.4142 4.25 13 4.25L2.81066 4.25L5.53033 1.53033C5.82322 1.23744 5.82322 0.762564 5.53033 0.46967C5.23744 0.176777 4.76256 0.176777 4.46967 0.46967L0.46967 4.46967Z" fill="#E0ABAB"/>
+                                    </g>
+                                </svg>
+                            </a>
+                            <div class="employee-overlay"></div>
+                        </div>
+
+                        <div class="employee-box">
+                            <div class="employee-box-bg">
+                                <img src="images/employee/employee-bg.png" class="emloyee-img" alt="Employee Background">
+                            </div>
+                            <div class="employee-box-content">
+                                <img src="images/employee/employee-3.png" alt="Employee">
+                            </div>
+                            <div class="employee-information">
+                                <h2 class="employee-title">Didar Yanar</h2>
+                                <div class="bottom-title">
+                                    <h3 class="employee-subtitle d-flex flex-column align-items-start">Didar Yanar<span>Pastry Chef</span></h3>
+                                </div>
+                            </div>
+                            <a href="#" class="employee-arrow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="arrow right">
+                                    <path id="Vector 190 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M0.46967 4.46967C0.176776 4.76256 0.176776 5.23744 0.469669 5.53033L4.46967 9.53033C4.76256 9.82322 5.23744 9.82322 5.53033 9.53033C5.82322 9.23744 5.82322 8.76256 5.53033 8.46967L2.81066 5.75L13 5.75C13.4142 5.75 13.75 5.41421 13.75 5C13.75 4.58579 13.4142 4.25 13 4.25L2.81066 4.25L5.53033 1.53033C5.82322 1.23744 5.82322 0.762564 5.53033 0.46967C5.23744 0.176777 4.76256 0.176777 4.46967 0.46967L0.46967 4.46967Z" fill="#E0ABAB"/>
+                                    </g>
+                                </svg>
+                            </a>
+                            <div class="employee-overlay"></div>
+                        </div>
+
+                        <div class="employee-box">
+                            <div class="employee-box-bg">
+                                <img src="images/employee/employee-bg.png" class="emloyee-img" alt="Employee Background">
+                            </div>
+                            <div class="employee-box-content">
+                                <img src="images/employee/employee-1.png" alt="Employee">
+                            </div>
+                            <div class="employee-information">
+                                <h2 class="employee-title">Ali Altun</h2>
+                                <h3 class="employee-subtitle d-flex flex-column align-items-start">Ali Altun<span>Pastry Chef</span></h3>
+                            </div>
+                            <a href="#" class="employee-arrow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="arrow right">
+                                    <path id="Vector 190 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M0.46967 4.46967C0.176776 4.76256 0.176776 5.23744 0.469669 5.53033L4.46967 9.53033C4.76256 9.82322 5.23744 9.82322 5.53033 9.53033C5.82322 9.23744 5.82322 8.76256 5.53033 8.46967L2.81066 5.75L13 5.75C13.4142 5.75 13.75 5.41421 13.75 5C13.75 4.58579 13.4142 4.25 13 4.25L2.81066 4.25L5.53033 1.53033C5.82322 1.23744 5.82322 0.762564 5.53033 0.46967C5.23744 0.176777 4.76256 0.176777 4.46967 0.46967L0.46967 4.46967Z" fill="#E0ABAB"/>
+                                    </g>
+                                </svg>
+                            </a>
+                            <div class="employee-overlay"></div>
+                        </div>
+
+                        <div class="employee-box">
+                            <div class="employee-box-bg">
+                                <img src="images/employee/employee-bg.png" class="emloyee-img" alt="Employee Background">
+                            </div>
+                            <div class="employee-box-content">
+                                <img src="images/employee/employee-2.png" alt="Employee">
+                            </div>
+                            <div class="employee-information">
+                                <h2 class="employee-title">Emre Akkaya</h2>
+                                <h3 class="employee-subtitle d-flex flex-column align-items-start">Emre Akkaya<span>Pastry Chef</span></h3>
+                            </div>
+                            <a href="#" class="employee-arrow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="arrow right">
+                                    <path id="Vector 190 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M0.46967 4.46967C0.176776 4.76256 0.176776 5.23744 0.469669 5.53033L4.46967 9.53033C4.76256 9.82322 5.23744 9.82322 5.53033 9.53033C5.82322 9.23744 5.82322 8.76256 5.53033 8.46967L2.81066 5.75L13 5.75C13.4142 5.75 13.75 5.41421 13.75 5C13.75 4.58579 13.4142 4.25 13 4.25L2.81066 4.25L5.53033 1.53033C5.82322 1.23744 5.82322 0.762564 5.53033 0.46967C5.23744 0.176777 4.76256 0.176777 4.46967 0.46967L0.46967 4.46967Z" fill="#E0ABAB"/>
+                                    </g>
+                                </svg>
+                            </a>
+                            <div class="employee-overlay"></div>
+                        </div>
+
+                        <div class="employee-box">
+                            <div class="employee-box-bg">
+                                <img src="images/employee/employee-bg.png" class="emloyee-img" alt="Employee Background">
+                            </div>
+                            <div class="employee-box-content">
+                                <img src="images/employee/employee-3.png" alt="Employee">
+                            </div>
+                            <div class="employee-information">
+                                <h2 class="employee-title">Didar Yanar</h2>
+                                <div class="bottom-title">
+                                    <h3 class="employee-subtitle d-flex flex-column align-items-start">Didar Yanar<span>Pastry Chef</span></h3>
+                                </div>
+                            </div>
+                            <a href="#" class="employee-arrow">
+                                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="arrow right">
+                                    <path id="Vector 190 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M0.46967 4.46967C0.176776 4.76256 0.176776 5.23744 0.469669 5.53033L4.46967 9.53033C4.76256 9.82322 5.23744 9.82322 5.53033 9.53033C5.82322 9.23744 5.82322 8.76256 5.53033 8.46967L2.81066 5.75L13 5.75C13.4142 5.75 13.75 5.41421 13.75 5C13.75 4.58579 13.4142 4.25 13 4.25L2.81066 4.25L5.53033 1.53033C5.82322 1.23744 5.82322 0.762564 5.53033 0.46967C5.23744 0.176777 4.76256 0.176777 4.46967 0.46967L0.46967 4.46967Z" fill="#E0ABAB"/>
+                                    </g>
+                                </svg>
+                            </a>
+                            <div class="employee-overlay"></div>
+                        </div>
+                        
+                    </div>
+                    <a href="#" class="btn-classic white-btn wow fadeIn">Eğitmenlerimiz</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="education-section">
+            <div class="container">
+                <div class="row">
+                    <h1 class="education-section-title wow fadeInDown">Pastacılık becerilerinizi <br> mükemmelleştirin!</h1>
+                    <a href="egitimlerimiz-detay.html" class="btn-classic black-btn wow fadeInDown" data-wow-delay=".3s">Eğitimleri İncele</a>
+                </div>
+            </div>
+
+            <div class="education-carousel-1" dir="rtl">
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/pasta.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Temel Pastacılık Eğitimi</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/cheescake.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Cheesecake</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/kurabiye.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title black-title">Glutensiz Kek ve Kurabiyeler</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/ustalik.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Pro Ustalık Eğitimi (3 Ay)</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/pasta.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Temel Pastacılık Eğitimi</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/cheescake.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Cheescake</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/cheescake.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Cheescake</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/kurabiye.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title black-title">Glutensiz Kek ve Kurabiyeler</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/ustalik.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Pro Ustalık Eğitimi (3 Ay)</h3>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="education-carousel-2">
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/fransiz_pasta.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Fransız ve Dünya Pastaları</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/kek.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Cake Make Entreme Pasta</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/fransiz_pasta.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Fransız ve Dünya Pastaları</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/coconut.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Dark Mouse Coconut Brownie Base</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/pastacilik.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Temel Pastacılık Eğitimi</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/kek.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Cake Make Entreme Pasta</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/fransiz_pasta.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Fransız ve Dünya Pastaları</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/coconut.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Dark Mouse Coconut Brownie Base</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-wrapper">
+                        <div class="box-bg">
+                            <img src="images/education/pastacilik.png" alt="Eğitim Img">
+                        </div>
+                        <div class="box-content">
+                            <h3 class="education-title white-title">Temel Pastacılık Eğitimi</h3>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="document-section">
+            <div class="document-section-bg">
+                <img src="images/document/bg.svg" alt="Document Background">
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4">
+                        <a href="#" class="box-wrapper d-flex align-items-center flex-column wow fadeInDown" data-wow-delay=".1s">
+                            <div class="box-img">
+                                <svg class="box-icon" xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                                    <path class="box-icon-path" fill-rule="evenodd" clip-rule="evenodd" d="M8.53125 13.125C8.53125 7.68845 12.9384 3.28125 18.375 3.28125H44.625C50.0616 3.28125 54.4688 7.68845 54.4688 13.125V42C54.4688 47.4366 50.0616 51.8438 44.625 51.8438H43.9688V57.75C43.9688 58.5463 43.4891 59.2642 42.7534 59.5689C42.0177 59.8736 41.1709 59.7052 40.6079 59.1421L36.75 55.2842L32.8921 59.1421C32.3291 59.7052 31.4823 59.8736 30.7466 59.5689C30.0109 59.2642 29.5312 58.5463 29.5312 57.75V51.8438H18.375C12.9384 51.8438 8.53125 47.4366 8.53125 42V13.125ZM12.4688 42C12.4688 45.2619 15.1131 47.9062 18.375 47.9062H29.5312V42C29.5312 40.9127 30.4127 40.0312 31.5 40.0312H42C43.0873 40.0312 43.9688 40.9127 43.9688 42V47.9062H44.625C47.8869 47.9062 50.5312 45.2619 50.5312 42V36.0938H18.375C15.1131 36.0938 12.4688 38.7381 12.4688 42ZM50.5312 32.1562H18.375C16.159 32.1562 14.114 32.8885 12.4688 34.1243V13.125C12.4688 9.86307 15.1131 7.21875 18.375 7.21875H44.625C47.8869 7.21875 50.5312 9.86307 50.5312 13.125V32.1562ZM19.0312 15.75C19.0312 14.6627 19.9127 13.7812 21 13.7812H42C43.0873 13.7812 43.9688 14.6627 43.9688 15.75C43.9688 16.8373 43.0873 17.7188 42 17.7188H21C19.9127 17.7188 19.0312 16.8373 19.0312 15.75ZM19.0312 24.9375C19.0312 23.8502 19.9127 22.9688 21 22.9688H31.5C32.5873 22.9688 33.4688 23.8502 33.4688 24.9375C33.4688 26.0248 32.5873 26.9062 31.5 26.9062H21C19.9127 26.9062 19.0312 26.0248 19.0312 24.9375ZM33.4688 43.9688V52.997L35.3579 51.1079C36.1267 50.339 37.3733 50.339 38.1421 51.1079L40.0312 52.997V43.9688H33.4688Z" fill="black"/>
+                                </svg>
+                            </div>
+                            <div class="box-content">
+                                <h3 class="document-title">İndirilebilir Doküman ve Kaynaklar</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <a href="#" class="box-wrapper d-flex align-items-center flex-column wow fadeInDown" data-wow-delay=".1s">
+                            <div class="box-img">
+                                <svg class="box-icon" xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                                    <path class="box-icon-path" fill-rule="evenodd" clip-rule="evenodd" d="M8.53125 13.125C8.53125 7.68845 12.9384 3.28125 18.375 3.28125H44.625C50.0616 3.28125 54.4688 7.68845 54.4688 13.125V42C54.4688 47.4366 50.0616 51.8438 44.625 51.8438H43.9688V57.75C43.9688 58.5463 43.4891 59.2642 42.7534 59.5689C42.0177 59.8736 41.1709 59.7052 40.6079 59.1421L36.75 55.2842L32.8921 59.1421C32.3291 59.7052 31.4823 59.8736 30.7466 59.5689C30.0109 59.2642 29.5312 58.5463 29.5312 57.75V51.8438H18.375C12.9384 51.8438 8.53125 47.4366 8.53125 42V13.125ZM12.4688 42C12.4688 45.2619 15.1131 47.9062 18.375 47.9062H29.5312V42C29.5312 40.9127 30.4127 40.0312 31.5 40.0312H42C43.0873 40.0312 43.9688 40.9127 43.9688 42V47.9062H44.625C47.8869 47.9062 50.5312 45.2619 50.5312 42V36.0938H18.375C15.1131 36.0938 12.4688 38.7381 12.4688 42ZM50.5312 32.1562H18.375C16.159 32.1562 14.114 32.8885 12.4688 34.1243V13.125C12.4688 9.86307 15.1131 7.21875 18.375 7.21875H44.625C47.8869 7.21875 50.5312 9.86307 50.5312 13.125V32.1562ZM19.0312 15.75C19.0312 14.6627 19.9127 13.7812 21 13.7812H42C43.0873 13.7812 43.9688 14.6627 43.9688 15.75C43.9688 16.8373 43.0873 17.7188 42 17.7188H21C19.9127 17.7188 19.0312 16.8373 19.0312 15.75ZM19.0312 24.9375C19.0312 23.8502 19.9127 22.9688 21 22.9688H31.5C32.5873 22.9688 33.4688 23.8502 33.4688 24.9375C33.4688 26.0248 32.5873 26.9062 31.5 26.9062H21C19.9127 26.9062 19.0312 26.0248 19.0312 24.9375ZM33.4688 43.9688V52.997L35.3579 51.1079C36.1267 50.339 37.3733 50.339 38.1421 51.1079L40.0312 52.997V43.9688H33.4688Z" fill="black"/>
+                                </svg>
+                            </div>
+                            <div class="box-content">
+                                <h3 class="document-title">Onaylı Sertifika ve Katılım Belgesi</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <a href="#" class="box-wrapper d-flex align-items-center flex-column wow fadeInDown" data-wow-delay=".1s">
+                            <div class="box-img">
+                                <svg class="box-icon" xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                                    <path class="box-icon-path" fill-rule="evenodd" clip-rule="evenodd" d="M8.53125 13.125C8.53125 7.68845 12.9384 3.28125 18.375 3.28125H44.625C50.0616 3.28125 54.4688 7.68845 54.4688 13.125V42C54.4688 47.4366 50.0616 51.8438 44.625 51.8438H43.9688V57.75C43.9688 58.5463 43.4891 59.2642 42.7534 59.5689C42.0177 59.8736 41.1709 59.7052 40.6079 59.1421L36.75 55.2842L32.8921 59.1421C32.3291 59.7052 31.4823 59.8736 30.7466 59.5689C30.0109 59.2642 29.5312 58.5463 29.5312 57.75V51.8438H18.375C12.9384 51.8438 8.53125 47.4366 8.53125 42V13.125ZM12.4688 42C12.4688 45.2619 15.1131 47.9062 18.375 47.9062H29.5312V42C29.5312 40.9127 30.4127 40.0312 31.5 40.0312H42C43.0873 40.0312 43.9688 40.9127 43.9688 42V47.9062H44.625C47.8869 47.9062 50.5312 45.2619 50.5312 42V36.0938H18.375C15.1131 36.0938 12.4688 38.7381 12.4688 42ZM50.5312 32.1562H18.375C16.159 32.1562 14.114 32.8885 12.4688 34.1243V13.125C12.4688 9.86307 15.1131 7.21875 18.375 7.21875H44.625C47.8869 7.21875 50.5312 9.86307 50.5312 13.125V32.1562ZM19.0312 15.75C19.0312 14.6627 19.9127 13.7812 21 13.7812H42C43.0873 13.7812 43.9688 14.6627 43.9688 15.75C43.9688 16.8373 43.0873 17.7188 42 17.7188H21C19.9127 17.7188 19.0312 16.8373 19.0312 15.75ZM19.0312 24.9375C19.0312 23.8502 19.9127 22.9688 21 22.9688H31.5C32.5873 22.9688 33.4688 23.8502 33.4688 24.9375C33.4688 26.0248 32.5873 26.9062 31.5 26.9062H21C19.9127 26.9062 19.0312 26.0248 19.0312 24.9375ZM33.4688 43.9688V52.997L35.3579 51.1079C36.1267 50.339 37.3733 50.339 38.1421 51.1079L40.0312 52.997V43.9688H33.4688Z" fill="black"/>
+                                </svg>
+                            </div>
+                            <div class="box-content">
+                                <h3 class="document-title">Online Eğitimler</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <a href="#" class="box-wrapper d-flex align-items-center flex-column wow fadeInDown" data-wow-delay=".1s">
+                            <div class="box-img">
+                                <svg class="box-icon" xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                                    <path class="box-icon-path" fill-rule="evenodd" clip-rule="evenodd" d="M8.53125 13.125C8.53125 7.68845 12.9384 3.28125 18.375 3.28125H44.625C50.0616 3.28125 54.4688 7.68845 54.4688 13.125V42C54.4688 47.4366 50.0616 51.8438 44.625 51.8438H43.9688V57.75C43.9688 58.5463 43.4891 59.2642 42.7534 59.5689C42.0177 59.8736 41.1709 59.7052 40.6079 59.1421L36.75 55.2842L32.8921 59.1421C32.3291 59.7052 31.4823 59.8736 30.7466 59.5689C30.0109 59.2642 29.5312 58.5463 29.5312 57.75V51.8438H18.375C12.9384 51.8438 8.53125 47.4366 8.53125 42V13.125ZM12.4688 42C12.4688 45.2619 15.1131 47.9062 18.375 47.9062H29.5312V42C29.5312 40.9127 30.4127 40.0312 31.5 40.0312H42C43.0873 40.0312 43.9688 40.9127 43.9688 42V47.9062H44.625C47.8869 47.9062 50.5312 45.2619 50.5312 42V36.0938H18.375C15.1131 36.0938 12.4688 38.7381 12.4688 42ZM50.5312 32.1562H18.375C16.159 32.1562 14.114 32.8885 12.4688 34.1243V13.125C12.4688 9.86307 15.1131 7.21875 18.375 7.21875H44.625C47.8869 7.21875 50.5312 9.86307 50.5312 13.125V32.1562ZM19.0312 15.75C19.0312 14.6627 19.9127 13.7812 21 13.7812H42C43.0873 13.7812 43.9688 14.6627 43.9688 15.75C43.9688 16.8373 43.0873 17.7188 42 17.7188H21C19.9127 17.7188 19.0312 16.8373 19.0312 15.75ZM19.0312 24.9375C19.0312 23.8502 19.9127 22.9688 21 22.9688H31.5C32.5873 22.9688 33.4688 23.8502 33.4688 24.9375C33.4688 26.0248 32.5873 26.9062 31.5 26.9062H21C19.9127 26.9062 19.0312 26.0248 19.0312 24.9375ZM33.4688 43.9688V52.997L35.3579 51.1079C36.1267 50.339 37.3733 50.339 38.1421 51.1079L40.0312 52.997V43.9688H33.4688Z" fill="black"/>
+                                </svg>
+                            </div>
+                            <div class="box-content">
+                                <h3 class="document-title">İndirilebilir Doküman ve Kaynaklar</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <a href="#" class="box-wrapper d-flex align-items-center flex-column wow fadeInDown" data-wow-delay=".1s">
+                            <div class="box-img">
+                                <svg class="box-icon" xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                                    <path class="box-icon-path" fill-rule="evenodd" clip-rule="evenodd" d="M8.53125 13.125C8.53125 7.68845 12.9384 3.28125 18.375 3.28125H44.625C50.0616 3.28125 54.4688 7.68845 54.4688 13.125V42C54.4688 47.4366 50.0616 51.8438 44.625 51.8438H43.9688V57.75C43.9688 58.5463 43.4891 59.2642 42.7534 59.5689C42.0177 59.8736 41.1709 59.7052 40.6079 59.1421L36.75 55.2842L32.8921 59.1421C32.3291 59.7052 31.4823 59.8736 30.7466 59.5689C30.0109 59.2642 29.5312 58.5463 29.5312 57.75V51.8438H18.375C12.9384 51.8438 8.53125 47.4366 8.53125 42V13.125ZM12.4688 42C12.4688 45.2619 15.1131 47.9062 18.375 47.9062H29.5312V42C29.5312 40.9127 30.4127 40.0312 31.5 40.0312H42C43.0873 40.0312 43.9688 40.9127 43.9688 42V47.9062H44.625C47.8869 47.9062 50.5312 45.2619 50.5312 42V36.0938H18.375C15.1131 36.0938 12.4688 38.7381 12.4688 42ZM50.5312 32.1562H18.375C16.159 32.1562 14.114 32.8885 12.4688 34.1243V13.125C12.4688 9.86307 15.1131 7.21875 18.375 7.21875H44.625C47.8869 7.21875 50.5312 9.86307 50.5312 13.125V32.1562ZM19.0312 15.75C19.0312 14.6627 19.9127 13.7812 21 13.7812H42C43.0873 13.7812 43.9688 14.6627 43.9688 15.75C43.9688 16.8373 43.0873 17.7188 42 17.7188H21C19.9127 17.7188 19.0312 16.8373 19.0312 15.75ZM19.0312 24.9375C19.0312 23.8502 19.9127 22.9688 21 22.9688H31.5C32.5873 22.9688 33.4688 23.8502 33.4688 24.9375C33.4688 26.0248 32.5873 26.9062 31.5 26.9062H21C19.9127 26.9062 19.0312 26.0248 19.0312 24.9375ZM33.4688 43.9688V52.997L35.3579 51.1079C36.1267 50.339 37.3733 50.339 38.1421 51.1079L40.0312 52.997V43.9688H33.4688Z" fill="black"/>
+                                </svg>
+                            </div>
+                            <div class="box-content">
+                                <h3 class="document-title">Online Sınav</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                        <a href="#" class="box-wrapper d-flex align-items-center flex-column wow fadeInDown" data-wow-delay=".1s">
+                            <div class="box-img">
+                                <svg class="box-icon" xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                                    <path class="box-icon-path" fill-rule="evenodd" clip-rule="evenodd" d="M8.53125 13.125C8.53125 7.68845 12.9384 3.28125 18.375 3.28125H44.625C50.0616 3.28125 54.4688 7.68845 54.4688 13.125V42C54.4688 47.4366 50.0616 51.8438 44.625 51.8438H43.9688V57.75C43.9688 58.5463 43.4891 59.2642 42.7534 59.5689C42.0177 59.8736 41.1709 59.7052 40.6079 59.1421L36.75 55.2842L32.8921 59.1421C32.3291 59.7052 31.4823 59.8736 30.7466 59.5689C30.0109 59.2642 29.5312 58.5463 29.5312 57.75V51.8438H18.375C12.9384 51.8438 8.53125 47.4366 8.53125 42V13.125ZM12.4688 42C12.4688 45.2619 15.1131 47.9062 18.375 47.9062H29.5312V42C29.5312 40.9127 30.4127 40.0312 31.5 40.0312H42C43.0873 40.0312 43.9688 40.9127 43.9688 42V47.9062H44.625C47.8869 47.9062 50.5312 45.2619 50.5312 42V36.0938H18.375C15.1131 36.0938 12.4688 38.7381 12.4688 42ZM50.5312 32.1562H18.375C16.159 32.1562 14.114 32.8885 12.4688 34.1243V13.125C12.4688 9.86307 15.1131 7.21875 18.375 7.21875H44.625C47.8869 7.21875 50.5312 9.86307 50.5312 13.125V32.1562ZM19.0312 15.75C19.0312 14.6627 19.9127 13.7812 21 13.7812H42C43.0873 13.7812 43.9688 14.6627 43.9688 15.75C43.9688 16.8373 43.0873 17.7188 42 17.7188H21C19.9127 17.7188 19.0312 16.8373 19.0312 15.75ZM19.0312 24.9375C19.0312 23.8502 19.9127 22.9688 21 22.9688H31.5C32.5873 22.9688 33.4688 23.8502 33.4688 24.9375C33.4688 26.0248 32.5873 26.9062 31.5 26.9062H21C19.9127 26.9062 19.0312 26.0248 19.0312 24.9375ZM33.4688 43.9688V52.997L35.3579 51.1079C36.1267 50.339 37.3733 50.339 38.1421 51.1079L40.0312 52.997V43.9688H33.4688Z" fill="black"/>
+                                </svg>
+                            </div>
+                            <div class="box-content">
+                                <h3 class="document-title">İndirilebilir Doküman ve Kaynaklar</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="highlights-section">
+            <div class="container">
+                <div class="highlights-carousel-main owl-carousel owl-theme">
+                    <div class="lr-wrapper">
+                        <div class="left">
+                            <div class="highlights-content-area">
+                                <div class="highlights-header">
+                                    <div class="titles">
+                                        <h3 class="highlights-small-title wow fadeInLeft" data-wow-delay=".1s">Öne Çıkan Eğitimlerimiz</h3>
+                                        <h2 class="highlights-title wow fadeInLeft" data-wow-delay=".2s">Didar Yanar</h2>
+                                    </div>
+                                    <div class="buttons">
+                                        <a href="#" class="btn-classic black-btn wow fadeInRight" data-wow-delay=".1s">İncele</a>
+                                        <a href="#" class="btn-classic black-btn wow fadeInRight" data-wow-delay=".3s">Başvur</a>
+                                    </div>
+                                </div>
+                                <div class="highlights-content">
+                                    <div class="box wow fadeIn" data-wow-delay=".2s">
+                                        <img src="images/content/playlist.svg" alt="Content Icon">
+                                        <h4 class="content-title">164 Eğitim</h4>
+                                    </div>
+        
+                                    <div class="box wow fadeIn" data-wow-delay=".3s">
+                                        <img src="images/content/video.svg" alt="Content Icon">
+                                        <h4 class="content-title">Canlı Yayın</h4>
+                                    </div>
+        
+                                    <div class="box wow fadeIn" data-wow-delay=".4s">
+                                        <img src="images/content/diploma.svg" alt="Content Icon">
+                                        <h4 class="content-title">Sertifikalı Eğitim</h4>
+                                    </div>
+        
+                                    <div class="box wow fadeIn" data-wow-delay=".5s">
+                                        <img src="images/content/book.svg" alt="Content Icon">
+                                        <h4 class="content-title">Workbook</h4>
+                                    </div>
+                                </div>
+                                <div class="highlights-education">
+                                    <h2 class="highligts-education-title wow fadeInLeft" data-wow-delay=".2s">Eğitimleri</h2>
+                                </div>
+                                <div class="highlights-inner-carousel owl-carousel owl-theme wow fadeInLeft" data-wow-delay=".7s">
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-1.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-2.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-3.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-1.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-2.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-3.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right wow fadeInRight" data-wow-delay=".2s">
+                            <div class="figure-wrapper">
+                                <img src="images/employee/didar-yanar.png" alt="Didar Yanar">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lr-wrapper">
+                        <div class="left">
+                            <div class="highlights-content-area">
+                                <div class="highlights-header">
+                                    <div class="titles">
+                                        <h3 class="highlights-small-title">Öne Çıkan Eğitimlerimiz</h3>
+                                        <h2 class="highlights-title">Didar Yanar</h2>
+                                    </div>
+                                    <div class="buttons">
+                                        <a href="#" class="btn-classic black-btn">İncele</a>
+                                        <a href="#" class="btn-classic black-btn">Başvur</a>
+                                    </div>
+                                </div>
+                                <div class="highlights-content">
+                                    <div class="box">
+                                        <img src="images/content/playlist.svg" alt="Content Icon">
+                                        <h4 class="content-title">164 Eğitim</h4>
+                                    </div>
+        
+                                    <div class="box">
+                                        <img src="images/content/video.svg" alt="Content Icon">
+                                        <h4 class="content-title">Canlı Yayın</h4>
+                                    </div>
+        
+                                    <div class="box">
+                                        <img src="images/content/diploma.svg" alt="Content Icon">
+                                        <h4 class="content-title">Sertifikalı Eğitim</h4>
+                                    </div>
+        
+                                    <div class="box">
+                                        <img src="images/content/book.svg" alt="Content Icon">
+                                        <h4 class="content-title">Workbook</h4>
+                                    </div>
+                                </div>
+                                <div class="highlights-education">
+                                    <h2 class="highligts-education-title">Eğitimleri</h2>
+                                </div>
+                                <div class="highlights-inner-carousel owl-carousel owl-theme">
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-1.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-2.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-3.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-1.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-2.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-3.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-1.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-2.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-3.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="figure-wrapper">
+                                <img src="images/employee/didar-yanar.png" alt="Didar Yanar">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lr-wrapper">
+                        <div class="left">
+                            <div class="highlights-content-area">
+                                <div class="highlights-header">
+                                    <div class="titles">
+                                        <h3 class="highlights-small-title">Öne Çıkan Eğitimlerimiz</h3>
+                                        <h2 class="highlights-title">Didar Yanar</h2>
+                                    </div>
+                                    <div class="buttons">
+                                        <a href="#" class="btn-classic black-btn">İncele</a>
+                                        <a href="#" class="btn-classic black-btn">Başvur</a>
+                                    </div>
+                                </div>
+                                <div class="highlights-content">
+                                    <div class="box">
+                                        <img src="images/content/playlist.svg" alt="Content Icon">
+                                        <h4 class="content-title">164 Eğitim</h4>
+                                    </div>
+        
+                                    <div class="box">
+                                        <img src="images/content/video.svg" alt="Content Icon">
+                                        <h4 class="content-title">Canlı Yayın</h4>
+                                    </div>
+        
+                                    <div class="box">
+                                        <img src="images/content/diploma.svg" alt="Content Icon">
+                                        <h4 class="content-title">Sertifikalı Eğitim</h4>
+                                    </div>
+        
+                                    <div class="box">
+                                        <img src="images/content/book.svg" alt="Content Icon">
+                                        <h4 class="content-title">Workbook</h4>
+                                    </div>
+                                </div>
+                                <div class="highlights-education">
+                                    <h2 class="highligts-education-title">Eğitimleri</h2>
+                                </div>
+                                <div class="highlights-inner-carousel owl-carousel owl-theme">
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-1.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-2.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-3.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-1.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-2.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-3.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-1.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-2.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="box">
+                                            <div class="box-bg">
+                                                <img src="images/cakes/cake-3.jpeg" alt="Cake Image">
+                                            </div>
+                                            <div class="box-content">
+                                                <h3 class="white-title">Fransız ve Dünya Pastaları</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="figure-wrapper">
+                                <img src="images/employee/didar-yanar.png" alt="Didar Yanar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <div class="row">
+                    <h1 class="white-title wow fadeInDown">Sıkça Sorulan Sorular</h1>
+                    <div class="wrapper mx-auto">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item wow fadeInDown">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#question-1" aria-expanded="true" aria-controls="question-1">
+                                    <h3>Didar Yanar Akademi nedir ve nasıl katılabilirim?</h3>
+                                </button>
+                                
+                                <div id="question-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#accordionExample">
+                                    <svg width="923" height="1" viewBox="0 0 923 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="0.85" x2="923" y2="0.85" stroke="#999999" stroke-opacity="0.5" stroke-width="0.3" stroke-dasharray="5 5"/>
+                                    </svg>
+                                    <div class="accordion-body">
+                                        <li>Didar Yanar Akademi hakkında daha fazla bilgi alabilir miyim?</li>
+                                        <li>Akademiye nasıl kayıt olabilirim?</li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item wow fadeInDown">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-2" aria-expanded="true" aria-controls="question-2">
+                                    <h3>Kurslarınıza kimler katılabilir?</h3>
+                                </button>
+                                
+                                <div id="question-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#accordionExample">
+                                    <svg width="923" height="1" viewBox="0 0 923 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="0.85" x2="923" y2="0.85" stroke="#999999" stroke-opacity="0.5" stroke-width="0.3" stroke-dasharray="5 5"/>
+                                    </svg>
+                                    <div class="accordion-body">
+                                        <li>Didar Yanar Akademi hakkında daha fazla bilgi alabilir miyim?</li>
+                                        <li>Akademiye nasıl kayıt olabilirim?</li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item wow fadeInDown">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-3" aria-expanded="true" aria-controls="question-3">
+                                    <h3>Online kurslarınız canlı mı, kayıt edilmiş videolar mı?</h3>
+                                </button>
+                                
+                                <div id="question-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#accordionExample">
+                                    <svg width="923" height="1" viewBox="0 0 923 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="0.85" x2="923" y2="0.85" stroke="#999999" stroke-opacity="0.5" stroke-width="0.3" stroke-dasharray="5 5"/>
+                                    </svg>
+                                    <div class="accordion-body">
+                                        <li>Didar Yanar Akademi hakkında daha fazla bilgi alabilir miyim?</li>
+                                        <li>Akademiye nasıl kayıt olabilirim?</li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item wow fadeInDown">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-4" aria-expanded="true" aria-controls="question-4">
+                                    <h3>Eğitim materyalleri neleri içeriyor?</h3>
+                                </button>
+                                
+                                <div id="question-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#accordionExample">
+                                    <svg width="923" height="1" viewBox="0 0 923 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="0.85" x2="923" y2="0.85" stroke="#999999" stroke-opacity="0.5" stroke-width="0.3" stroke-dasharray="5 5"/>
+                                    </svg>
+                                    <div class="accordion-body">
+                                        <li>Didar Yanar Akademi hakkında daha fazla bilgi alabilir miyim?</li>
+                                        <li>Akademiye nasıl kayıt olabilirim?</li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item wow fadeInDown">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-5" aria-expanded="true" aria-controls="question-5">
+                                    <h3>Kurs süreleri ve zamanlaması nasıl işliyor?</h3>
+                                </button>
+                                
+                                <div id="question-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#accordionExample">
+                                    <svg width="923" height="1" viewBox="0 0 923 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="0.85" x2="923" y2="0.85" stroke="#999999" stroke-opacity="0.5" stroke-width="0.3" stroke-dasharray="5 5"/>
+                                    </svg>
+                                    <div class="accordion-body">
+                                        <li>Didar Yanar Akademi hakkında daha fazla bilgi alabilir miyim?</li>
+                                        <li>Akademiye nasıl kayıt olabilirim?</li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item wow fadeInDown">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-6" aria-expanded="true" aria-controls="question-6">
+                                    <h3>Eğitmenleriniz kimlerdir?</h3>
+                                </button>
+                                
+                                <div id="question-6" class="accordion-collapse collapse" aria-labelledby="heading-6" data-bs-parent="#accordionExample">
+                                    <svg width="923" height="1" viewBox="0 0 923 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="0.85" x2="923" y2="0.85" stroke="#999999" stroke-opacity="0.5" stroke-width="0.3" stroke-dasharray="5 5"/>
+                                    </svg>
+                                    <div class="accordion-body">
+                                        <li>Didar Yanar Akademi hakkında daha fazla bilgi alabilir miyim?</li>
+                                        <li>Akademiye nasıl kayıt olabilirim?</li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item wow fadeInDown">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-7" aria-expanded="true" aria-controls="question-7">
+                                    <h3>Kursları tamamlayanlara sertifika veriyor musunuz?</h3>
+                                </button>
+                                
+                                <div id="question-7" class="accordion-collapse collapse" aria-labelledby="heading-7" data-bs-parent="#accordionExample">
+                                    <svg width="923" height="1" viewBox="0 0 923 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="0.85" x2="923" y2="0.85" stroke="#999999" stroke-opacity="0.5" stroke-width="0.3" stroke-dasharray="5 5"/>
+                                    </svg>
+                                    <div class="accordion-body">
+                                        <li>Didar Yanar Akademi hakkında daha fazla bilgi alabilir miyim?</li>
+                                        <li>Akademiye nasıl kayıt olabilirim?</li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item wow fadeInDown">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-8" aria-expanded="true" aria-controls="question-8">
+                                    <h3>Kursların ücretleri ve ödeme seçenekleri nelerdir?</h3>
+                                </button>
+                                
+                                <div id="question-8" class="accordion-collapse collapse" aria-labelledby="heading-8" data-bs-parent="#accordionExample">
+                                    <svg width="923" height="1" viewBox="0 0 923 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="0.85" x2="923" y2="0.85" stroke="#999999" stroke-opacity="0.5" stroke-width="0.3" stroke-dasharray="5 5"/>
+                                    </svg>
+                                    <div class="accordion-body">
+                                        <li>Didar Yanar Akademi hakkında daha fazla bilgi alabilir miyim?</li>
+                                        <li>Akademiye nasıl kayıt olabilirim?</li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item wow fadeInDown">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-9" aria-expanded="true" aria-controls="question-9">
+                                    <h3>Kurs içeriğine nasıl erişim sağlayabilirim?</h3>
+                                </button>
+                                
+                                <div id="question-9" class="accordion-collapse collapse" aria-labelledby="heading-9" data-bs-parent="#accordionExample">
+                                    <svg width="923" height="1" viewBox="0 0 923 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="0.85" x2="923" y2="0.85" stroke="#999999" stroke-opacity="0.5" stroke-width="0.3" stroke-dasharray="5 5"/>
+                                    </svg>
+                                    <div class="accordion-body">
+                                        <li>Didar Yanar Akademi hakkında daha fazla bilgi alabilir miyim?</li>
+                                        <li>Akademiye nasıl kayıt olabilirim?</li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item wow fadeInDown">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-10" aria-expanded="true" aria-controls="question-10">
+                                    <h3>Müşteri destek ve iletişim nasıl sağlanır?</h3>
+                                </button>
+                                
+                                <div id="question-10" class="accordion-collapse collapse" aria-labelledby="heading-10" data-bs-parent="#accordionExample">
+                                    <svg width="923" height="1" viewBox="0 0 923 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="0.85" x2="923" y2="0.85" stroke="#999999" stroke-opacity="0.5" stroke-width="0.3" stroke-dasharray="5 5"/>
+                                    </svg>
+                                    <div class="accordion-body">
+                                        <li>Didar Yanar Akademi hakkında daha fazla bilgi alabilir miyim?</li>
+                                        <li>Akademiye nasıl kayıt olabilirim?</li>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-sm-5 col-md-6 col-lg-2">
+                        <div class="links-wrapper">
+                            <div class="link wow fadeIn" data-wow-delay=".1s">
+                                <a href="#">Hakkımızda</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".3s">
+                                <a href="#">Vizyonumuz - Misyonumuz</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".5s">
+                                <a href="#">Eğitimlerimiz</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-5 col-md-6 col-lg-2">
+                        <div class="links-wrapper">
+                            <div class="link wow fadeIn" data-wow-delay=".2s">
+                                <a href="#">Eğitmenlerimiz</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".4s">
+                                <a href="#">İletişim Bilgilerimiz</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".6s">
+                                <a href="#">Sıkça Sorulan Sorular</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 logo-col">
+                        <div class="footer-logo-wrapper wow fadeIn" data-wow-delay=".1s">
+                            <div class="left-radius">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                                    <g clip-path="url(#clip0_104_8222)">
+                                        <path d="M22.9999 0L22.9999 23C22.9999 16.6482 20.4258 10.8989 16.2637 6.73613C12.101 2.57409 6.3517 0 -0.00012207 0L22.9999 0Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_104_8222">
+                                        <rect width="23" height="23" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+    
+                            <div class="right-radius">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                                    <g clip-path="url(#clip0_104_8224)">
+                                        <path d="M-0.000123978 0L-0.000123978 23C-0.000123978 16.6482 2.57397 10.8989 6.73601 6.73613C10.8988 2.57409 16.6481 0 22.9999 0L-0.000123978 0Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_104_8224">
+                                        <rect width="23" height="23" fill="white" transform="matrix(-1 0 0 1 22.9999 0)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+    
+                            <a href="#">
+                                <img src="images/header/logo.svg" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-5 col-md-6 col-lg-2">
+                        <div class="links-wrapper">
+                            <div class="link wow fadeIn" data-wow-delay=".1s">
+                                <a href="#">Üyelik Sözleşmesi</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".3s">
+                                <a href="#">Mesafeli Satış Sözleşmesi</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".5s">
+                                <a href="#">Gizlilik ve Güvenlik Politikası</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-5 col-md-6 col-lg-2">
+                        <div class="links-wrapper">
+                            <div class="link wow fadeIn" data-wow-delay=".2s">
+                                <a href="#">İptal ve İade Koşulları</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".4s">
+                                <a href="#">Gizlilik ve Güvenlik Politikası</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".6s">
+                                <a href="#">KVKK Aydınlatma Metni</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="footer-bottom-container container">
+            <div class="footer-bottom">
+                <div class="copyright-text wow fadeInLeft" data-wow-delay=".1s">
+                    <p class="copy-text">&copy; 2023 Didar Yanar Akademi - Tüm Hakları Saklıdır.</p>
+                </div>
+    
+                <div class="social-media-icons wow fadeInDown" data-wow-delay=".2s">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+    
+                <div class="payment-methods">
+                    <div class="box wow fadeInDown" data-wow-delay=".1s">
+                        <img src="images/footer/iyzico.svg" alt="Payment Methods Image">
+                    </div>
+    
+                    <div class="box wow fadeInDown" data-wow-delay=".2s">
+                        <img src="images/footer/mastercard-seeklogo.svg" alt="Payment Methods Image">
+                    </div>
+    
+                    <div class="box wow fadeInDown" data-wow-delay=".3s">
+                        <img src="images/footer/mastercard-seeklogo.svg" alt="Payment Methods Image">
+                    </div>
+    
+                    <div class="box wow fadeInDown" data-wow-delay=".4s">
+                        <img src="images/footer/visa.svg" alt="Payment Methods Image">
+                    </div>
+    
+                    <div class="box wow fadeInDown" data-wow-delay=".5s">
+                        <img src="images/footer/visa-electron-seeklogo.svg" alt="Payment Methods Image">
+                    </div>
+    
+                    <div class="box wow fadeInDown" data-wow-delay=".6s">
+                        <img src="images/footer/american-express.svg" alt="Payment Methods Image">
+                    </div>
+    
+                    <div class="box wow fadeInDown" data-wow-delay=".7s">
+                        <img src="images/footer/troy-logo.svg" alt="Payment Methods Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script src="js/wow/wow.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    <script src="js/btnAnimation.js"></script>
+    <!-- Owl -->
+    <script>
+        $(".education-carousel-1").slick({
+            slidesToShow: 5,
+            dots: false,
+            centerMode: true,
+            arrows: false,
+            rtl: true,
+            infinite: true,
+            asNavFor: '.education-carousel-2',
+            responsive: [
+                {
+                    breakpoint: 1441,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                },
+                {
+                    breakpoint: 1201,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 1025,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+
+        $(".education-carousel-2").slick({
+            slidesToShow: 4,
+            infinite: false,
+            centerMode: true,
+            arrows: false,
+            dots: true,
+            infinite: true,
+            asNavFor: '.education-carousel-1',
+            responsive: [
+                {
+                    breakpoint: 1201,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 1025,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
+
+    <script>
+        $('.home-carousel').owlCarousel({
+            loop: false,
+            nav: false,
+            responsive:{
+                0:{
+                    items: 1,
+                    center: true,
+                    margin: 115,
+                    stagePadding: 120
+                },
+                280:{
+                    items: 1,
+                    center: true,
+                    margin: 150,
+                    stagePadding: 45
+                },
+                320:{
+                    items: 1,
+                    center: true,
+                    margin: 150,
+                    stagePadding: 55
+                },
+                350:{
+                    items: 1,
+                    center: true,
+                    margin: 150,
+                    stagePadding: 60
+                },
+                380:{
+                    items: 1,
+                    center: true,
+                    margin: 150,
+                    stagePadding: 80
+                },
+                400:{
+                    items: 1,
+                    center: true,
+                    margin: 90,
+                    stagePadding: 90
+                },
+                450:{
+                    items: 1,
+                    center: true,
+                    margin: 100,
+                    stagePadding: 100
+                },
+                560:{
+                    items: 1,
+                    center: true,
+                    loop: true,
+                    margin: 100,
+                    stagePadding: 150
+                },
+                600:{
+                    items: 2,
+                    margin: 50,
+                    stagePadding: 50
+                },
+                700:{
+                    items: 2,
+                    margin: 80,
+                    stagePadding: 80
+                },
+                768:{
+                    items: 2,
+                    margin: 100,
+                    stagePadding: 100
+                },
+                1000:{
+                    items: 3,
+                    margin: 50,
+                    stagePadding: 50
+                },
+                1150:{
+                    items: 4,
+                    margin: 30
+                },
+                1280:{
+                    items: 4,
+                    margin: 75
+                }
+            }
+        });
+
+        $('.highlights-carousel-main').owlCarousel({
+            loop: true,
+            nav: false,
+            dots: true,
+            margin: 50,
+            responsive:{
+                0:{
+                    items: 1
+                }
+            }
+        });
+
+        $('.highlights-inner-carousel').owlCarousel({
+            loop: true,
+            margin: 35,
+            nav: true,
+            navText: ["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+            dots: false,
+            responsive:{
+                0:{
+                    items: 1
+                },
+                480:{
+                    items: 2
+                },
+                600:{
+                    items: 3
+                }
+            }
+        });
+    </script>
+</body>
+</html>
