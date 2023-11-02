@@ -983,6 +983,15 @@
         height: 65px;
     }
     /* #Header */
+
+    /* Home */
+    .home-carousel{
+        margin-block: 25px;
+    }
+    .home-section .owl-theme .owl-nav.disabled + .owl-dots{
+        margin-top: 25px;
+    }
+    /* #Home */
 }
 
 @media (max-width: 350px){
