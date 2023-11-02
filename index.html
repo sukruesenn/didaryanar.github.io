@@ -1291,7 +1291,7 @@
                     <p class="copy-text">&copy; 2023 Didar Yanar Akademi - Tüm Hakları Saklıdır.</p>
                 </div>
     
-                <div class="social-media-icons wow fadeInDown" data-wow-delay=".2s">
+                <div class="social-media-icons wow fadeInDown">
                     <a href="#">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
@@ -1425,6 +1425,7 @@
     <script>
         $('.home-carousel').owlCarousel({
             loop: false,
+            smartSpeed: 450,
             nav: false,
             responsive:{
                 0:{
@@ -1437,31 +1438,31 @@
                     items: 1,
                     center: true,
                     margin: 150,
-                    stagePadding: 45
-                },
-                320:{
-                    items: 1,
-                    center: true,
-                    margin: 150,
                     stagePadding: 55
                 },
-                350:{
+                335:{
                     items: 1,
                     center: true,
-                    margin: 150,
-                    stagePadding: 60
+                    margin: 140,
+                    stagePadding: 75
                 },
-                380:{
+                360:{
                     items: 1,
                     center: true,
-                    margin: 150,
+                    margin: 140,
                     stagePadding: 80
                 },
-                400:{
+                390:{
                     items: 1,
                     center: true,
-                    margin: 90,
+                    margin: 140,
                     stagePadding: 90
+                },
+                425:{
+                    items: 1,
+                    center: true,
+                    margin: 130,
+                    stagePadding: 105
                 },
                 450:{
                     items: 1,
@@ -1510,6 +1511,7 @@
         $('.highlights-carousel-main').owlCarousel({
             loop: true,
             nav: false,
+            smartSpeed: 450,
             dots: true,
             margin: 50,
             responsive:{
@@ -1521,6 +1523,7 @@
 
         $('.highlights-inner-carousel').owlCarousel({
             loop: true,
+            smartSpeed: 450,
             margin: 35,
             nav: true,
             navText: ["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],

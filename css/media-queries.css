@@ -319,6 +319,7 @@
     }
     .highlights-section .box .box-content h3{
         padding-inline: 15px;
+        font-size: 20px;
     }
     .highlights-section .highlights-header .titles{
         gap: 5px;
@@ -333,9 +334,6 @@
     .highlights-section .highlights-content{
         justify-content: normal;
         gap: 30px;
-    }
-    .highlights-section .box .box-content h3{
-        font-size: 20px;
     }
     .highlights-section .owl-dots{
         position: relative;
@@ -606,6 +604,30 @@
 }
 
 @media (max-width: 575px){
+    /* OWL */
+    .owl-dots .owl-dot span,
+    .slick-dots li{
+        width: 20px!important;
+    }
+    .owl-dots .owl-dot.active span,
+    .slick-dots li.slick-active{
+        width: 35px!important;
+    }
+    .owl-theme .owl-dots .owl-dot span{
+        margin: 5px 5px!important;
+    }
+    /* #OWL */
+    
+    /* Home Section */
+    .home-section{
+        overflow: hidden;
+    }
+    .home-section .home-section-bg{
+        height: 103%;
+        top: -1px;
+    }
+    /* #Home Section */
+    
     /* Highlights Section */
     .highlights-section .highlights-header{
         flex-direction: column;
@@ -721,9 +743,24 @@
     h2{
         font-size: 30px;
     }
+    h3{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    p{
+        font-size: 14px;
+    }
+    a{
+        font-size: 14px;
+    }
     /* #General */
 
     /* Header */
+    header nav{
+        margin-top: 20px;
+    }
     #defaultLogo,
     .mobile-nav .mobile-nav-header .header-logo img{
         height: 70px;
@@ -735,16 +772,20 @@
         width: 300px;
     }
     .mobile-nav .mobile-nav-content a{
-        font-size: 20px;
+        font-size: 18px;
     }
     /* #Mobile Nav */
 
     /* Home Section */
     .home-section{
-        height: 100vh;
+        height: auto;
+        min-height: 100vh;
     }
     .home-section-container{
-        padding-top: 160px;
+        padding-top: 120px;
+    }
+    .home-section .home-title{
+        margin-bottom: 0;
     }
     .home-carousel{
         margin-block: 25px;
@@ -775,17 +816,23 @@
     /* #Education Section */
 
     /* Document Section */
-    .document-section .box-wrapper .box-img .box-icon{
-        width: 55px;
-    }
     .document-section{
         margin-bottom: 40px;
+    }
+    .document-section .box-wrapper .document-title{
+        width: 240px;
+    }
+    .document-section .box-wrapper .box-img .box-icon{
+        width: 55px;
     }
     /* #Document Section */
 
     /* Highlights Section */
     .highlights-section{
         margin-bottom: 40px;
+    }
+    .highlights-section .box .box-content h3{
+        font-size: 18px;
     }
     .highlights-section .highlights-content .box{
         margin-left: 0;
@@ -798,7 +845,7 @@
         justify-content: flex-start;
     }
     .highlights-section .box .box-bg img{
-        height: 350px;
+        height: 300px;
         object-fit: cover;
     }
     /* #Highlights Section */
@@ -810,6 +857,15 @@
     }
     .faq-section .accordion-item:last-child{
         margin-bottom: 40px;
+    }
+    .faq-section .accordion-button h3{
+        font-size: 16px;
+    }
+    .faq-section .accordion-button{
+        padding: 20px;
+    }
+    .faq-section .accordion-body li{
+        margin-left: 20px;
     }
     /* #FAQ Section */
 
@@ -825,19 +881,45 @@
     footer .footer-bottom .copy-text{
         text-align: center;
     }
+    footer .footer-content .links-wrapper a,
+    footer .footer-bottom .copy-text{
+        font-size: 14px;
+    }
+    footer .footer-content .row{
+        padding-top: 200px;
+    }
+    footer .row .col-md-6.col-lg-2{
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+    footer .footer-bottom{
+        margin-top: 5px;
+    }
+    footer .footer-bottom .copyright-text{
+        width: 100%;
+    }
+    footer .footer-bottom .payment-methods,
+    footer .footer-bottom .copyright-text,
+    footer .footer-bottom .social-media-icons,
+    footer .footer-content .links-wrapper .link{
+        margin-bottom: 15px;
+    }
     /* #Footer */
+}
+
+@media (max-width: 450px){
+    /* Employee Section */
+    .employee-box .employee-box-content img,
+    .employee-box img{
+        width: 70%!important;
+    }
+    /* #Employee Section */
 }
 
 @media (max-width: 425px){
     /* General */
     .btn-classic{
         padding: 6px 25px;
-    }
-    h3{
-        font-size: 18px;
-    }
-    h4{
-        font-size: 16px;
     }
     /* #General */
     
@@ -873,19 +955,17 @@
     .faq-section .accordion-item:last-child{
         margin-bottom: 30px;
     }
-    /* #FAQ Section */
-}
-
-@media (max-width: 390px){
-    /* Highlights Section */
-    .highlights-section .box .box-bg img{
-        height: 300px;
+    .faq-section .accordion-button{
+        padding: 18px;
     }
-    /* #Highlights Section */
-
-    /* FAQ Section */
-    .faq-section .accordion-button h3{
-        font-size: 16px;
+    .faq-section .accordion-body li{
+        margin-left: 15px;
+    }
+    .faq-section .accordion-collapse svg{
+        margin-bottom: 15px;
+    }
+    .faq-section .accordion-body{
+        padding-bottom: 15px;
     }
     /* #FAQ Section */
 }
