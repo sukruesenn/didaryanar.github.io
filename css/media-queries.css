@@ -780,6 +780,10 @@
     .home-section{
         height: auto;
         min-height: 100vh;
+        margin-block: 45px;
+    }
+    .home-section .owl-theme .owl-nav.disabled + .owl-dots{
+        margin-top: 45px;
     }
     .home-section-container{
         padding-top: 120px;
@@ -983,15 +987,6 @@
         height: 65px;
     }
     /* #Header */
-
-    /* Home */
-    .home-carousel{
-        margin-block: 25px;
-    }
-    .home-section .owl-theme .owl-nav.disabled + .owl-dots{
-        margin-top: 25px;
-    }
-    /* #Home */
 }
 
 @media (max-width: 350px){
