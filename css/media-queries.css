@@ -821,6 +821,15 @@
     .document-section .box-wrapper .document-title{
         width: 240px;
     }
+    .document-section .box-wrapper .box-img .box-icon{
+        width: 55px;
+    }
+    .document-section .box-wrapper:hover .box-icon{
+        top: 27px;
+        width: 189px;
+        height: 189px;
+        opacity: .2;
+    }
     /* #Document Section */
 
     /* Highlights Section */
