@@ -782,9 +782,6 @@
         min-height: 100vh;
         margin-block: 45px;
     }
-    .home-section .owl-theme .owl-nav.disabled + .owl-dots{
-        margin-top: 45px;
-    }
     .home-section-container{
         padding-top: 120px;
     }
@@ -796,7 +793,7 @@
     }
     .home-section .owl-theme .owl-nav.disabled + .owl-dots{
         flex-wrap: wrap;
-        margin-top: 25px;
+        margin-top: 45px;
     }
     .employee-box .employee-box-content img,
     .employee-box img{
