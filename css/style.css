@@ -86,6 +86,14 @@ h4{
     margin-bottom: 0;
     color: var(--black);
 }
+body section:not(:nth-child(1)){
+    margin-top: 80px;
+}
+body section.faq-section{
+    margin-top: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 .container{
     max-width: 1415px;
 }
@@ -191,6 +199,12 @@ h4{
 .slick-dots li button:focus:before,
 .slick-dots li button:hover:before{
     opacity: .25;
+}
+.bottom{
+    margin-bottom: 30px;
+}
+.section-bottom{
+    padding-bottom: 80px;
 }
 /* #General */
 
@@ -594,7 +608,6 @@ header.sticky-header nav .menu-wrapper > a::after{
 
 /* Home - Education Section */
 .education-section{
-    margin-top: 120px;
     position: relative;
     z-index: 10;
 }
@@ -659,17 +672,15 @@ header.sticky-header nav .menu-wrapper > a::after{
 
 /* Home - Document Section */
 .document-section{
-    margin-top: 120px;
-    margin-bottom: 120px;
     position: relative;
 }
-.document-section .document-section-bg{
+.document-section-bg{
     position: absolute;
     top: -180px;
     z-index: 1;
     pointer-events: none;
 }
-.document-section .document-section-bg img{
+.document-section-bg img{
     width: 100%;
     height: 100%;
 }
@@ -909,10 +920,13 @@ header.sticky-header nav .menu-wrapper > a::after{
 .faq-section{
     background-color: var(--black);
     position: relative;
+    z-index: 5;
+}
+.page.light-faq .faq-section{
+    background-color: var(--white);
 }
 .faq-section h1{
-    margin-top: 163px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .faq-section .wrapper{
     width: 1045px;
@@ -928,9 +942,6 @@ header.sticky-header nav .menu-wrapper > a::after{
 }
 .accordion-item:last-of-type .accordion-button.collapsed{
     border-radius: 12px;
-}
-.faq-section .accordion-item:last-child{
-    margin-bottom: 162px;
 }
 .faq-section .accordion-button{
     background-color: var(--black-2);
@@ -1193,7 +1204,7 @@ footer .offset-col{
 /* General */
 .page .section{
     padding-top: 230px;
-    margin-bottom: 350px;
+    margin-top: 0;
 }
 .page .section h1{
     margin-bottom: 120px;
@@ -1366,6 +1377,29 @@ footer .offset-col{
 .education-page .owl-theme .owl-nav [class*='owl-']:hover{
     background-color: var(--black);
 }
+.page .educations-section .box-img{
+    position: relative;
+}
+.page .box-img .profile-img{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    width: 75px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+.page .box-img .profile-img img{
+    width: 100%!important;
+    object-fit: cover!important;
+    height: auto!important;
+    border-radius: 50%!important;
+}
+.page .edu-chef{
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
 /* #Page - Egitimlerimiz */
 
 /* ************************************ */
@@ -1375,6 +1409,7 @@ footer .offset-col{
     padding-bottom: 250px;
     background-color: var(--black);
     position: relative;
+    margin-top: 0;
 }
 .page .kurumsal .kurumsal-bg{
     position: absolute;
@@ -1444,6 +1479,13 @@ footer .offset-col{
     padding-top: 355px;
     padding-bottom: 240px;
 }
+.page.education-detail .edu-btn{
+    position: relative;
+    top: 20px;
+}
+.page.education-detail .col-md-6.col-lg-4{
+    margin-bottom: 40px;
+}
 .page.chef-detail .title,
 .page.title-center .title{
     font-size: 50px;
@@ -1451,9 +1493,8 @@ footer .offset-col{
     margin-bottom: 60px;
     padding-inline: 250px;
 }
-
 .page .education-content-section{
-    margin-block: 90px 100px;
+    margin-block: 80px;
 }
 .page .education-content-section .education-content-desc span{
     color: var(--edu-color);
@@ -1466,6 +1507,7 @@ footer .offset-col{
 .page .education-content-section .education-content-desc .edu-title{
     margin-block: 15px 25px;
     color: var(--black-4);
+    font-weight: 700;
 }
 .page .education-content-section .education-content-desc .edu-desc{
     color: var(--edu-color);
@@ -1517,7 +1559,7 @@ footer .offset-col{
 }
 
 .page .banner-section{
-    height: 455px;
+    height: 550px;
     background-color: var(--pink-2);
     position: relative;
     z-index: 3;
@@ -1553,10 +1595,10 @@ footer .offset-col{
 }
 
 .page .studies-section{
-    padding-top: 92px;
     position: relative;
     background-color: var(--white);
     z-index: 5;
+    margin-bottom: 80px;
 }
 .page .studies-section .studies-carousel{
     width: 636px;
@@ -1574,6 +1616,79 @@ footer .offset-col{
 }
 .page .studies-section .col-12:last-child{
     margin-bottom: 0;
+}
+.page .education-information-section{
+    margin-bottom: 150px;
+}
+.page .education-information-section .text-wrapper{
+    margin-bottom: 60px;
+}
+.page .education-information-section .text-wrapper h2{
+    margin-bottom: 25px;
+}
+.page .education-information-section .text-wrapper .desc{
+    color: #95959A;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.page.edu-document .document-section .edu-document-box{
+    height: 450px;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--white);
+}
+.page.edu-document .document-section .row{
+    position: relative;
+    z-index: 5;
+    margin-bottom: 150px;
+}
+.page.edu-document .document-section .box-wrapper{
+    height: 100%;
+}
+.page.edu-document .document-section .box-wrapper .document-title{
+    top: 55%;
+}
+.page.edu-document .document-section .box-wrapper:hover .document-title{
+    top: 45%;
+}
+.page.edu-document .document-section .box-wrapper .box-img .box-icon{
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.page.edu-document .document-section .col-md-4 .edu-document-box{
+    height: 250px;
+}
+.page.edu-document .document-section .col-md-4 .box-wrapper .document-title{
+    top: 55%;
+}
+.page.edu-document .document-section .col-md-4 .box-wrapper .box-img .box-icon{
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .3s ease-in-out;
+}
+.page.edu-document .document-section .col-md-4 .box-wrapper:hover .box-icon{
+    top: 27px;
+    width: 189px;
+    height: 189px;
+    opacity: .2;
+}
+.page.edu-document .document-section .col-md-4 .box-wrapper:hover .document-title{
+    top: 47%;
+}
+.page.edu-document .document-section .box-wrapper .document-title{
+    width: 190px;
+}
+.page.edu-document .effect{
+    transition: .3s ease-in-out;
+}
+.page.edu-document .effect:hover{
+    box-shadow: 0px 18px 80px 0px #FD7A8B4D;
 }
 /* #Page - Egitim Detay */
 
@@ -1659,9 +1774,7 @@ footer .offset-col{
     margin-top: 92px;
 }
 .page.educator .document-section{
-    margin-top: 90px;
     margin-bottom: 0;
-    padding-bottom: 200px;
     overflow: hidden;
 }
 .page.educator .highlights-carousel-main .owl-stage-outer{
@@ -1777,7 +1890,9 @@ footer .offset-col{
 }
 
 .page .price-section{
-    margin-top: 140px;
+    position: relative;
+    z-index: 5;
+    background-color: var(--white);
 }
 .page .price-section .box-wrapper{
     background-color: var(--black-4);
@@ -1963,9 +2078,6 @@ footer .offset-col{
     color: var(--black);
 }
 
-.page .educations-section{
-    margin-top: 165px;
-}
 .page .educations-section .educations-carousel{
     margin-top: 23px;
 }
@@ -2049,34 +2161,31 @@ footer .offset-col{
 .page .price-section .light-box .product-features span{
     color: var(--black);
 }
-.page .faq-section{
+.page.light-faq{
     background-color: transparent;
 }
-.page .faq-section h1{
+.page.light-faq h1{
     margin-bottom: 70px;
+    color: var(--black)!important;
 }
-.page .faq-section .accordion-button,
-.page .faq-section .accordion-item{
+.page.light-faq .accordion-button,
+.page.light-faq .accordion-item{
     background-color: var(--white-2);
 }
-.page .faq-section .accordion-button h3{
+.page.light-faq .accordion-button h3{
     color: var(--black);
 }
-.page .faq-section .accordion-button::after{
+.page.light-faq .accordion-button::after{
     background-image: var(--accordion-icon-black);
 }
-.page .faq-section .wrapper{
+.page.light-faq .wrapper{
     width: 1045px;
 }
-.page .faq-section .accordion-item:last-child{
+.page.light-faq .accordion-item:last-child{
     margin-bottom: 0;
 }
 .page.chef-detail .pagi-wrapper{
     gap: 20px;
-}
-.page.chef-detail .chef-pagination{
-    margin-top: 205px;
-    padding-bottom: 135px;
 }
 .page.chef-detail .chef-pagination .left-pagi,
 .page.chef-detail .chef-pagination .right-pagi{
