@@ -8,7 +8,7 @@ new WOW().init();
 
 // Header Settings
 let hamburgerBtn = document.getElementById("menuBtn");
-let hamburgerBtnLine = document.querySelectorAll(".line");
+let hamburgerBtnLine = document.querySelectorAll("header span");
 let mobileNav = document.getElementById("mobileNav");
 let defaultLogo = document.getElementById("defaultLogo");
 let overlay = document.getElementById("mobileNavOverlay");
@@ -16,10 +16,6 @@ let overlay = document.getElementById("mobileNavOverlay");
 hamburgerBtn.addEventListener("click", function(){
     hamburgerBtn.classList.toggle("is-active");
     mobileNav.classList.toggle("is-active");
-
-    hamburgerBtnLine.forEach(line => {
-        line.classList.toggle("black-line");
-    });
     
     defaultLogo.classList.toggle("logo-none");
     overlay.classList.toggle("is-active");

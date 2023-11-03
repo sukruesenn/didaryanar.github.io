@@ -61,6 +61,36 @@
         right: -20px;
     }
      /* #Home Section */
+
+     /* Page - Chef Detay */
+     .page .studies-section .grid-area .left-column img,
+     .page .studies-section .grid-area .right-column img{
+        width: 115px;
+        height: 115px;
+     }
+     .page .studies-section .full-column{
+        width: 240px;
+     }
+     .page .studies-section .grid-area .right-column img,
+     .page.education-detail .studies-section .comment-area,
+     .page .studies-section .full-column{
+        height: 240px;
+     }
+     .page.education-detail .studies-section .comment-area{
+        padding: 20px;
+     }
+     .page.education-detail .studies-section .comment-area p{
+        margin-bottom: 20px;
+     }
+     .page.education-detail .studies-section .comment-area p br:first-child{
+        display: none;
+     }
+     .page.education-detail .studies-section .comment-area{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+     }
+     /* #Page - Chef Detay */
 }
 
 @media (max-width: 1460px){
@@ -96,7 +126,13 @@
 @media (max-width: 1440px){
     /* General */
     h2{
-        font-size: 38px;
+        font-size: 38px!important;
+    }
+    .page .section h1{
+        margin-bottom: 70px;
+    }
+    .page .section{
+        padding-top: 200px;
     }
     /* #General */
     
@@ -132,6 +168,63 @@
         width: 52%;
     }
     /* #Footer */
+
+    /* Page - Kurumsal */
+    .page .kurumsal .kurumsal-bg img{
+        width: 100%;
+    }
+    /* #Page - Kurumsal */
+
+    /* Page - İletisim Bilgileri */
+    .page .contact-box .box-info span,
+    .page .contact-box .box-info a{
+        font-size: 18px;
+    }
+    /* #Page - İletisim Bilgileri  */
+
+    /* Page - Egitimlerimiz */
+    .page .highlights-section .figure-wrapper{
+        width: 500px;
+    }
+    .page .highlights-section .figure-wrapper img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .page .educations-section .title,
+    .page.chef-detail .price-section .title,
+    .page.chef-detail .title,
+    .page.title-center .title{
+        padding-inline: 300px;
+    }
+    /* #Page - Egitimlerimiz */
+
+    /* Page - Chef Detay */
+    .page .video-section .video-wrapper{
+        height: 700px;
+    }
+    .page .video-section .video-section-bg .play-video-btn img{
+        width: 90px;
+    }
+    .page.chef-detail .educations-section .box-img img{
+        height: 300px;
+    }
+    .page .educations-section,
+    .page.chef-detail .price-section,
+    .page .studies-section,
+    .page .faq-section,
+    .page.chef-detail .chef-pagination{
+        margin-top: 80px;
+    }
+    .page.chef-detail .price-section .row .col-md-3{
+        width: 300px;
+    }
+    .page .studies-section{
+        padding-top: 0;
+    }
+    .page .faq-section h1{
+        margin-top: 0;
+    }
+    /* #Page - Chef Detay */
 }
 
 @media (max-width: 1400px){
@@ -221,6 +314,78 @@
         text-wrap: nowrap;
     }
     /* #Footer */
+
+    /* Page - İletisim Bilgileri */
+    .page .contact-box{
+        height: 220px;
+        padding-inline: 25px;
+    }
+    .page .contact-box .box-icon svg{
+        font-size: 40px;
+    }
+    .page.contact-page .row.info-row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 200px;
+    }
+    .page.contact-page .row.info-row .col-lg-4{
+        margin-bottom: 20px;
+    }
+    .page.contact-page .row.info-row .col-lg-4:last-child{
+        margin-bottom: 0;
+    }
+    /* #Page - İletisim Bilgileri */
+
+    /* Page - Egitimlerimiz */
+    .page .highlights-section .figure-wrapper{
+        width: 450px;
+    }
+    .page .e-box-content{
+        margin-top: 30px;
+    }
+    .page .chef-info{
+        margin-left: 15px;
+    }
+    /* #Page - Egitimlerimiz */
+
+    /* Page - Chef Detay */
+    .page .video-section .video-content{
+        padding: 65px 35px;
+    }
+    .page.chef-detail .educations-section .box-img img{
+        height: 250px;
+    }
+    .page .educations-section .box-content{
+        padding-block: 65px 20px;
+        padding-inline: 25px;
+    }
+    .page .educations-section .edu-btn,
+    .page .studies-section .owl-nav-buttons .prev-btn-wrapper,
+    .page .studies-section .owl-nav-buttons .next-btn-wrapper,
+    .page.chef-detail .circle-btn{
+        width: 45px;
+        height: 45px;
+    }
+    .page .educations-section .edu-btn img,
+    .page .studies-section .owl-nav-buttons .prev-btn-wrapper img,
+    .page .studies-section .owl-nav-buttons .next-btn-wrapper img,
+    .page.chef-detail .circle-btn img{
+        width: 15px;
+        height: 15px;
+    }
+    .page .educations-section .edu-title{
+        font-size: 20px;
+    }
+    .page .educations-section .title,
+    .page.chef-detail .price-section .title,
+    .page.chef-detail .title,
+    .page.title-center .title{
+        padding-inline: 150px;
+    }
+
+    /* #Page - Chef Detay */
 }
 
 @media (max-width: 1200px){
@@ -229,7 +394,7 @@
         font-size: 45px;
     }
     h2{
-        font-size: 36px;
+        font-size: 36px!important;
     }
     .btn-classic{
         padding: 8px 28px;
@@ -281,6 +446,33 @@
         width: 50%;
     }
     /* #Footer */
+
+    /* Page - Egitimlerimiz */
+    .page .highlights-section .figure-wrapper{
+        display: none;
+    }
+    .page .lr-wrapper .left{
+        width: 100%;
+    }
+    .page .highlights-section{
+        margin-bottom: 0;
+    }
+    .page .chef-section{
+        margin-top: 100px;
+    }
+    .page .chef-wrapper{
+        margin-top: 70px;
+    }
+    /* #Page - Egitimlerimiz */
+
+    /* Page - Chef Detay */
+    .page .video-section .content-box{
+        gap: 10px;
+    }
+    .page .video-section .content-box img{
+        width: 35px;
+    }
+    /* #Page - Chef Detay */
 }
 
 @media (max-width: 1080px){
@@ -306,6 +498,16 @@
 }
 
 @media (max-width: 1024px){
+    /* General */
+    .page .section h1{
+        margin-bottom: 40px;
+    }
+    .page .section{
+        padding-top: 180px;
+    }
+    /* #General */
+
+    
     /* Highlights Section */
     .highlights-section .figure-wrapper{
         display: none;
@@ -325,7 +527,7 @@
         gap: 5px;
     }
     .highlights-section{
-        height: clamp(450px, 71.615vw, 550px)!important;
+        height: clamp(520px, 71.615vw, 650px)!important;
         margin-bottom: 70px;
     }
     .lr-wrapper .left{
@@ -357,6 +559,15 @@
         width: 100%;
     }
     /* #FAQ Section */
+
+    /* Page - Chef Detay */
+    .popup-content{
+        width: 90%;
+    }
+    .page .video-section .video{
+        height: 500px;
+    }
+    /* #Page - Chef Detay */
 }
 
 @media (max-width: 1000px){
@@ -390,6 +601,15 @@
 }
 
 @media (max-width: 991px){
+    /* General */
+    .page .kurumsal p{
+        text-align: center;
+    }
+    .page.content-page p{
+        text-align: center;
+    }
+    /* #General */
+    
     /* Header */
     header .menu-wrapper{
         display: none!important;
@@ -443,11 +663,67 @@
         margin-bottom: 35px;
     }
     /* #Footer */
+
+    /* Page - İletisim Bilgileri */
+    .page .form-wrapper{
+        width: 90%;
+        margin-inline: auto;
+    }
+    /* #Page - İletisim Bilgileri */
+
+    /* Page - Egitimlerimiz */
+    .page .highlights-section .highlights-content{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .page .lr-wrapper .left{
+        padding-inline: 0;
+    }
+    /* #Page - Egitimlerimiz */
+
+    /* Page - Chef Detay */
+    .page .video-section .video-content{
+        padding: 45px 35px;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center!important;
+    }
+    .page .video-section .video-wrapper{
+        height: 650px;
+    }
+    .page .video-section .col-md-9{
+        width: 85%;
+    }
+    .page .educations-section .edu-btn{
+        width: 40px;
+        height: 40px;
+    }
+    .page .educations-section .box-content{
+        padding-inline: 20px;
+    }
+    .page .price-section .box-wrapper h3{
+        font-size: 24px;
+    }
+    .page .price-section .box-wrapper .product-price{
+        font-size: 35px;
+    }
+    /* #Page - Chef Detay */
 }
 
 @media (max-width: 950px){
     /* Highlights Section */
     /* #Highlights Section */
+}
+
+@media (max-width: 850px){
+    /* Page - Chef Detay */
+    .page .educations-section .title,
+    .page.chef-detail .price-section .title,
+    .page.chef-detail .title,
+    .page.title-center .title{
+        padding-inline: 50px;
+    }
+    /* #Page - Chef Detay */
 }
 
 @media (max-width: 800px){
@@ -468,12 +744,99 @@
     /* #Home Section */
 }
 
+@media (max-width: 768px){
+    /* Page - Egitimlerimiz */
+    .page .chef-img{
+        width: 110px;
+        height: 110px;
+        flex-shrink: 0;
+    }
+    .education-page .owl-theme .owl-nav [class*='owl-']{
+        margin: 5px 3px;
+    }
+    .education-page .owl-theme .owl-nav{
+        top: -130px;
+    }
+    .education-page .owl-carousel .owl-nav button.owl-next,
+    .education-page .owl-carousel .owl-nav button.owl-prev{
+        width: 48px;
+        height: 48px;
+    }
+    .education-page .all-btn{
+        margin-right: 110px;
+    }
+    .page .chef-info{
+        width: 225px;
+    }
+    /* #Page - Egitimlermiz */
+
+    /* Page - Chef Detay */
+    .page.chef-detail .educations-section .box-img img{
+        height: 200px;
+    }
+    .page .educations-section .edu-title{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .page .educations-section .edu-btn{
+        width: 35px;
+        height: 35px;
+    }
+    .page .educations-section .title,
+    .page.chef-detail .price-section .title,
+    .page.chef-detail .title,
+    .page.title-center .title{
+        padding-inline: 0;
+    }
+    .page.chef-detail .title,
+    .page.title-center .title,
+    .page.chef-detail .price-section .title,
+    .page.chef-detail .title,
+    .page.title-center .title,
+    .page .faq-section h1{
+        margin-bottom: 35px;
+    }
+    .page .price-section .box-wrapper{
+        padding: 40px 20px;
+        height: auto;
+    }
+    .page.chef-detail .chef-pagination .left-pagi,
+    .page.chef-detail .chef-pagination .right-pagi{
+        height: auto;
+    }
+    /* #Page - Chef Detay */
+}
+
 @media (max-width: 767px){
     /* Footer */
     footer .row .logo-col{
         right: 50px;
     }
     /* #Footer */
+
+    /* Page - Chef Detay */
+    .page .educations-section .edu-title{
+        gap: 15px;
+        flex-direction: column;
+        align-items: flex-start!important;
+    }
+    .page.chef-detail .price-section .row .col-md-3{
+        width: 250px;
+    }
+    .page.chef-detail .chef-pagination .left-pagi,
+    .page.chef-detail .chef-pagination .right-pagi{
+        width: auto;
+    }
+    .page.chef-detail .pagi-wrapper{
+        flex-wrap: wrap;
+    }
+    .page.chef-detail .left-pagi .chef-info a{
+        margin-left: 30px;
+    }
+    .page.chef-detail .right-pagi .chef-info a{
+        margin-right: 30px;
+    }
+    /* #Page - Chef Detay */
 }
 
 @media (max-width: 720px){
@@ -483,6 +846,12 @@
         flex-wrap: wrap;
     }
     /* #Highlights Section */
+
+    /* Page - Egitimlermiz */
+    .page .chef-info{
+        margin-left: 5px;
+    }
+    /* #Page - Egitimlermiz */
 }
 
 @media (max-width: 700px){
@@ -503,9 +872,19 @@
 @media (max-width: 660px){
     /* Highlights Section */
     .highlights-section{
-        height: clamp(450px, 83.333vw, 550px)!important;
+        height: 530px!important;
     }
     /* #Highlights Section */
+
+    /* Page - Egitimlerimiz */
+    .page .chef-wrapper .chef-area{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .education-page .owl-theme .owl-nav{
+        top: -98px;
+    }
+    /* #Page - Egitimlerimiz */
 }
 
 @media (max-width: 650px){
@@ -539,6 +918,35 @@
         padding-inline: 20px
     }
     /* #FAQ Section */
+
+    /* Page - Chef Detay */
+    .page.chef-detail .chef-pagination .left-pagi,
+    .page.chef-detail .chef-pagination .right-pagi{
+        border-radius: 12px;
+        flex-direction: column-reverse;
+        padding: 35px 25px;
+    }
+    .page.chef-detail .right-pagi .chef-info a{
+        margin-right: 0;
+    }
+    .page.chef-detail .left-pagi .chef-info a{
+        margin-left: 0;
+    }
+    .page.chef-detail .right-pagi .chef-info a,
+    .page.chef-detail .left-pagi .chef-info a{
+        align-items: center;
+    }
+    .page.chef-detail .left-pagi .circle-btn{
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -22px;
+    }
+    .page.chef-detail .right-pagi .circle-btn{
+        right: 50%;
+        transform: translateX(50%) scaleX(-1);
+        bottom: -22px;
+    }
+    /* #Page - Chef Detay */
 }
 
 @media (max-width: 600px){
@@ -711,6 +1119,50 @@
         margin-right: 0;
     }
     /* #Footer */
+
+    /* Page - Egitimlerimiz */
+    .education-page .lr-wrapper{
+        text-align: center;
+    }
+    .education-page .highlights-section .highlights-header .titles{
+        justify-content: center;
+    }
+    /* #Page - Egitimlerimiz */
+    
+    /* Page - Chef Detay */
+    .page .video-section .video-wrapper{
+        margin-inline: 2%;
+    }
+    .page .video-section .col-md-9{
+        width: 90%;
+    }
+    .page .video-section .video-content{
+        padding: 30px 25px;
+    }
+    .page .video-section .video{
+        height: 280px;
+    }
+    .page .studies-section .comment-area .user-info .user-bg{
+        width: 40px;
+        height: 40px;
+    }
+    .page .studies-section .comment-area .user-info span{
+        font-size: 16px;
+    }
+    .page .studies-section .grid-area .left-column img,
+    .page .studies-section .grid-area .right-column img{
+        width: 100px;
+        height: 100px;
+    }
+    .page .studies-section .grid-area .right-column img,
+    .page.education-detail .studies-section .comment-area,
+    .page .studies-section .full-column{
+        height: 210px;
+    }
+    .page .studies-section .full-column{
+        width: 210px;
+     }
+    /* #Page - Chef Detay */
 }
 
 @media (max-width: 559px){
@@ -734,13 +1186,25 @@
     /* #Highlights Section */
 }
 
+@media (max-width: 500px){
+    /* Page - Chef Detay */
+    .page.chef-detail .price-section .row .col-md-3{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .page.chef-detail .price-section .row .col-md-3:last-child{
+        margin-bottom: 0;
+    }
+    /* #Page - Chef Detay */
+}
+
 @media (max-width: 480px){
     /* General */
     h1{
         font-size: 34px;
     }
     h2{
-        font-size: 30px;
+        font-size: 28px!important;
     }
     h3{
         font-size: 16px;
@@ -749,10 +1213,20 @@
         font-size: 15px;
     }
     p{
-        font-size: 14px;
+        font-size: 14px!important;
     }
     a{
         font-size: 14px;
+    }
+    .page .section h1{
+        margin-bottom: 20px;
+    }
+    .page .kurumsal h2{
+        margin-bottom: 15px!important;
+    }
+    .page .section{
+        padding-top: 150px;
+        margin-bottom: 250px;
     }
     /* #General */
 
@@ -910,6 +1384,102 @@
         margin-bottom: 15px;
     }
     /* #Footer */
+
+    /* Page - Kurumsal */
+    .page .kurumsal p{
+        margin-bottom: 50px;
+    }
+    /* #Page - Kurumsal */
+
+    /* Page - İletisim Bilgileri */
+    .page .gmap iframe{
+        height: 550px;
+    }
+    .page .contact-box{
+        gap: 10px;
+    }
+    /* #Page - İletisim Bilgileri */
+
+    /* Page- Egitimlerimiz */
+    .page .e-box-content{
+        margin-top: 25px;
+    }
+    .page .circle-btn{
+        width: 35px;
+        height: 35px;
+    }
+    .page .circle-btn svg{
+        width: 15px;
+        height: 15px;
+    }
+    .education-page .owl-theme .owl-nav{
+        top: -92px;
+    }
+    .education-page .owl-carousel .owl-nav button.owl-next,
+    .education-page .owl-carousel .owl-nav button.owl-prev{
+        width: 40px;
+        height: 40px;
+    }
+    .education-page .owl-carousel .prev-slide,
+    .education-page .owl-carousel .next-slide{
+        width: 15px;
+        height: 15px;
+    }
+    .page .highlights-section{
+        margin-bottom: 0;
+    }
+    .education-page .highlights-section .highlights-content .box{
+        margin-left: 10%;
+        justify-content: flex-start;
+    }
+    /* #Page - Egitimlerimiz */
+
+    /* Page - Chef Detay */
+    .page .video-section .video-wrapper{
+        height: 500px;
+    }
+    .page .video-section .video-section-bg .play-video-btn img{
+        width: 80px;
+    }
+    .page .video-section .col-md-9{
+        width: 100%;
+    }
+    .page .chef-about-section .desc{
+        margin-top: 25px;
+    }
+    .page.chef-detail .title,
+    .page.title-center .title,
+    .page .faq-section h1{
+        margin-bottom: 25px;
+    }
+    .page .educations-section,
+    .page.chef-detail .price-section,
+    .page .studies-section,
+    .page .faq-section,
+    .page.chef-detail .chef-pagination{
+        margin-top: 60px;
+    }
+    .page .price-section .box-wrapper .product-price{
+        font-size: 34px;
+    }
+    .page .studies-section .grid-area .left-column img,
+    .page .studies-section .grid-area .right-column img{
+        width: 75px;
+        height: 100px;
+    }
+    .page .studies-section .grid-area .right-column img,
+    .page.education-detail .studies-section .comment-area,
+    .page .studies-section .full-column{
+        height: 210px;
+    }
+    .page .studies-section .full-column{
+        width: 210px;
+     }
+     .page.chef-detail .pagi-wrapper{
+        justify-content: space-between!important;
+        gap: 0;
+     }
+    /* #Page - Chef Detay */
 }
 
 @media (max-width: 450px){
@@ -925,6 +1495,9 @@
     /* General */
     .btn-classic{
         padding: 6px 25px;
+    }
+    .page .section{
+        padding-top: 140px;
     }
     /* #General */
     
@@ -944,9 +1517,6 @@
     /* Highlights Section */
     .highlights-section{
         margin-bottom: 25px;
-    }
-    .highlights-section .highlights-content .box{
-        margin-left: -2%;
     }
     .highlights-section .box .box-content h3{
         height: 50px;
@@ -973,6 +1543,56 @@
         padding-bottom: 15px;
     }
     /* #FAQ Section */
+
+    /* Page - Chef Detay */
+    .page .video-section .video{
+        height: 200px;
+    }
+    .page.education-detail .studies-section .wrapper{
+        flex-direction: column;
+    }
+    .page .studies-section .grid-area{
+        width: 100%;
+    }
+    .page .studies-section .grid-area .left-column,
+    .page .studies-section .grid-area .right-column{
+        width: 50%;
+    }
+    .page .studies-section .grid-area .left-column img,
+    .page .studies-section .grid-area .right-column img{
+        width: 100%;
+        height: 140px;
+    }
+    .page .studies-section .grid-area .right-column img,
+    .page .studies-section .full-column{
+        height: 290px;
+    }
+    .page.education-detail .studies-section .comment-area{
+        height: auto!important;
+    }
+    .page .studies-section .full-column{
+        width: 100%;
+    }
+    .page.chef-detail .chef-pagination .left-pagi,
+    .page.chef-detail .chef-pagination .right-pagi{
+        padding: 25px;
+    }
+    .page .educations-section .edu-btn,
+    .page .studies-section .owl-nav-buttons .prev-btn-wrapper,
+    .page .studies-section .owl-nav-buttons .next-btn-wrapper,
+    .page.chef-detail .circle-btn{
+        width: 40px;
+        height: 40px;
+    }
+    /* #Page - Chef Detay */
+}
+
+@media (max-width: 389px){
+    /* Page - Chef Detay */
+    .page .educations-section .educations-carousel{
+        margin-top: -50px;
+    }
+    /* #Page - Chef Detay */
 }
 
 @media (max-width: 375px){
@@ -981,7 +1601,7 @@
         font-size: 32px;
     }
     h2{
-        font-size: 28px;
+        font-size: 26px!important;
     }
     /* #General */
     
@@ -1000,6 +1620,12 @@
         margin-top: 25px;
     }
     /* #Home */
+
+    /* Page - Chef Detay */
+    .page .price-section .box-wrapper .product-price{
+        font-size: 32px;
+    }
+    /* #Page - Chef Detay */
 }
 
 @media (max-width: 350px){

@@ -12,19 +12,66 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
     <title>Didar Yanar Akademi | Ana Sayfa</title>
 </head>
 <body class="page education-detail chef-detail footer-dark">
+    <nav class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-wrapper">
+            <div class="mobile-nav-header">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="images/header/logo-black.svg" alt="Didar Yanar Akademi">
+                    </a>
+                </div>
+            </div>
+            <div class="mobile-nav-content">
+                <a href="index.html" class="nav-item">Ana Sayfa</a>
+                <a href="kurumsal.html" class="nav-item">Kurumsal</a>
+                <a href="egitimlerimiz.html" class="nav-item">Eğitimlerimiz</a>
+                <a href="egitmenlerimiz.html" class="nav-item">Eğitmenlerimiz</a>
+                <a href="iletisim.html" class="nav-item">İletişim Bilgileri</a>
+                <a href="#" class="nav-item login-btn login-btn-black wow fadeIn" data-wow-delay=".6s">
+                    <img src="images/header/lock-2.svg" alt="Lock">
+                    Öğrenci Girişi
+                </a>
+            </div>
+            <div class="mobile-nav-footer">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
     <header>
         <div class="container">
             <nav class="nav d-flex align-items-center">
                 <div class="logo-wrapper wow fadeIn" data-wow-delay=".1s">
                     <a href="index.html">
-                        <img id="logo" src="images/header/logo-black.svg" alt="Logo">
+                        <img id="defaultLogo" src="images/header/logo-black.svg" alt="Logo">
                         <img id="logo-black" src="images/header/logo-black.svg" alt="Logo">
                     </a>
                 </div>
-    
+
+                <div class="hamburger" id="menuBtn">
+                    <span class="line black"></span>
+                    <span class="line black"></span>
+                    <span class="line black"></span>
+                </div>
+                
                 <div class="menu-wrapper black-menu-wrapper d-flex align-items-center">
                     <a href="kurumsal.html" class="menu-item wow fadeIn" data-wow-delay=".2s">Kurumsal</a>
                     <a href="egitimlerimiz.html" class="menu-item wow fadeIn" data-wow-delay=".3s">Eğitimlerimiz</a>
@@ -221,8 +268,8 @@
         </section>
 
         <section class="studies-section">
-            <h2 class="title wow fadeInDown" data-wow-delay=".3s">Öğrenci Çalışmaları ve Yorumları</h2>
             <div class="container">
+                <h2 class="title wow fadeInDown" data-wow-delay=".3s">Öğrenci Çalışmaları ve Yorumları</h2>
                 <div class="comment-carousel owl-carousel owl-theme wow fadeInUp" data-wow-delay=".5s">
                     <div class="wrapper">
                         <div class="grid-area">
@@ -234,7 +281,7 @@
                                 <img src="images/cakes/cake-4.png" alt="Didar Yanar Akademi">
                             </div>
                         </div>
-
+    
                         <div class="comment-area">
                             <p class="desc">Profesyonel Pastacılık Eğitimi kursu muhteşemdi! Uzman eğitmenlerden öğrendim ve pratiğe dökme şansım oldu.<br><br>Gerçekten memnun kaldım!</p>
                             <div class="user-info">
@@ -256,7 +303,7 @@
                                 <img src="images/cakes/cake-7.png" alt="Didar Yanar Akademi">
                             </div>
                         </div>
-
+    
                         <div class="comment-area">
                             <p class="desc">Profesyonel Pastacılık Eğitimi kursu muhteşemdi! Uzman eğitmenlerden öğrendim ve pratiğe dökme şansım oldu.<br><br>Gerçekten memnun kaldım!</p>
                             <div class="user-info">
@@ -273,7 +320,7 @@
                                 <img src="images/cakes/cake-11.png" alt="Didar Yanar Akademi">
                             </div>
                         </div>
-
+    
                         <div class="comment-area">
                             <p class="desc">Profesyonel Pastacılık Eğitimi kursu muhteşemdi! Uzman eğitmenlerden öğrendim ve pratiğe dökme şansım oldu.<br><br>Gerçekten memnun kaldım!</p>
                             <div class="user-info">
@@ -516,96 +563,97 @@
         </div>
     </main>
 
-
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="col-md-2">
-                    <div class="links-wrapper">
-                        <div class="link wow fadeIn" data-wow-delay=".1s">
-                            <a href="#">Hakkımızda</a>
-                        </div>
-                        <div class="link wow fadeIn" data-wow-delay=".3s">
-                            <a href="#">Vizyonumuz - Misyonumuz</a>
-                        </div>
-                        <div class="link wow fadeIn" data-wow-delay=".5s">
-                            <a href="#">Eğitimlerimiz</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-2">
-                    <div class="links-wrapper">
-                        <div class="link wow fadeIn" data-wow-delay=".2s">
-                            <a href="#">Eğitmenlerimiz</a>
-                        </div>
-                        <div class="link wow fadeIn" data-wow-delay=".4s">
-                            <a href="#">İletişim Bilgilerimiz</a>
-                        </div>
-                        <div class="link wow fadeIn" data-wow-delay=".6s">
-                            <a href="#">Sıkça Sorulan Sorular</a>
+                <div class="row">
+                    <div class="col-sm-5 col-md-6 col-lg-2">
+                        <div class="links-wrapper">
+                            <div class="link wow fadeIn" data-wow-delay=".1s">
+                                <a href="#">Hakkımızda</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".3s">
+                                <a href="#">Vizyonumuz - Misyonumuz</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".5s">
+                                <a href="#">Eğitimlerimiz</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-md-1">
-                    <div class="footer-logo-wrapper wow fadeIn" data-wow-delay=".1s">
-                        <div class="left-radius">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
-                                <g clip-path="url(#clip0_104_8222)">
-                                    <path d="M22.9999 0L22.9999 23C22.9999 16.6482 20.4258 10.8989 16.2637 6.73613C12.101 2.57409 6.3517 0 -0.00012207 0L22.9999 0Z" fill="white"/>
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_104_8222">
-                                    <rect width="23" height="23" fill="white"/>
+    
+                    <div class="col-sm-5 col-md-6 col-lg-2">
+                        <div class="links-wrapper">
+                            <div class="link wow fadeIn" data-wow-delay=".2s">
+                                <a href="#">Eğitmenlerimiz</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".4s">
+                                <a href="#">İletişim Bilgilerimiz</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".6s">
+                                <a href="#">Sıkça Sorulan Sorular</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 logo-col">
+                        <div class="footer-logo-wrapper wow fadeIn" data-wow-delay=".1s">
+                            <div class="left-radius">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                                    <g clip-path="url(#clip0_104_8222)">
+                                        <path d="M22.9999 0L22.9999 23C22.9999 16.6482 20.4258 10.8989 16.2637 6.73613C12.101 2.57409 6.3517 0 -0.00012207 0L22.9999 0Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_104_8222">
+                                        <rect width="23" height="23" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+    
+                            <div class="right-radius">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                                    <g clip-path="url(#clip0_104_8224)">
+                                        <path d="M-0.000123978 0L-0.000123978 23C-0.000123978 16.6482 2.57397 10.8989 6.73601 6.73613C10.8988 2.57409 16.6481 0 22.9999 0L-0.000123978 0Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_104_8224">
+                                        <rect width="23" height="23" fill="white" transform="matrix(-1 0 0 1 22.9999 0)"/>
                                     </clipPath>
-                                </defs>
-                            </svg>
-                        </div>
-
-                        <div class="right-radius">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
-                                <g clip-path="url(#clip0_104_8224)">
-                                    <path d="M-0.000123978 0L-0.000123978 23C-0.000123978 16.6482 2.57397 10.8989 6.73601 6.73613C10.8988 2.57409 16.6481 0 22.9999 0L-0.000123978 0Z" fill="white"/>
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_104_8224">
-                                    <rect width="23" height="23" fill="white" transform="matrix(-1 0 0 1 22.9999 0)"/>
-                                </clipPath>
-                                </defs>
-                            </svg>
-                        </div>
-
-                        <a href="#">
-                            <img src="images/header/logo-black.svg" alt="Logo">
-                        </a>
-                    </div>
-                </div>
-
-                <div class="offset-col col-md-2">
-                    <div class="links-wrapper">
-                        <div class="link wow fadeIn" data-wow-delay=".1s">
-                            <a href="#">Üyelik Sözleşmesi</a>
-                        </div>
-                        <div class="link wow fadeIn" data-wow-delay=".3s">
-                            <a href="#">Mesafeli Satış Sözleşmesi</a>
-                        </div>
-                        <div class="link wow fadeIn" data-wow-delay=".5s">
-                            <a href="#">Gizlilik ve Güvenlik Politikası</a>
+                                    </defs>
+                                </svg>
+                            </div>
+    
+                            <a href="#">
+                                <img src="images/header/logo-black.svg" alt="Logo">
+                            </a>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-md-2">
-                    <div class="links-wrapper">
-                        <div class="link wow fadeIn" data-wow-delay=".2s">
-                            <a href="#">İptal ve İade Koşulları</a>
+    
+                    <div class="col-sm-5 col-md-6 col-lg-2">
+                        <div class="links-wrapper">
+                            <div class="link wow fadeIn" data-wow-delay=".1s">
+                                <a href="#">Üyelik Sözleşmesi</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".3s">
+                                <a href="#">Mesafeli Satış Sözleşmesi</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".5s">
+                                <a href="#">Gizlilik ve Güvenlik Politikası</a>
+                            </div>
                         </div>
-                        <div class="link wow fadeIn" data-wow-delay=".4s">
-                            <a href="#">Gizlilik ve Güvenlik Politikası</a>
-                        </div>
-                        <div class="link wow fadeIn" data-wow-delay=".6s">
-                            <a href="#">KVKK Aydınlatma Metni</a>
+                    </div>
+    
+                    <div class="col-sm-5 col-md-6 col-lg-2">
+                        <div class="links-wrapper">
+                            <div class="link wow fadeIn" data-wow-delay=".2s">
+                                <a href="#">İptal ve İade Koşulları</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".4s">
+                                <a href="#">Gizlilik ve Güvenlik Politikası</a>
+                            </div>
+                            <div class="link wow fadeIn" data-wow-delay=".6s">
+                                <a href="#">KVKK Aydınlatma Metni</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -615,11 +663,11 @@
         
         <div class="footer-bottom-container container">
             <div class="footer-bottom">
-                <div class="copyright-text wow fadeInLeft" data-wow-delay=".1s">
+                <div class="copyright-text">
                     <p class="copy-text">&copy; 2023 Didar Yanar Akademi - Tüm Hakları Saklıdır.</p>
                 </div>
     
-                <div class="social-media-icons wow fadeInDown" data-wow-delay=".2s">
+                <div class="social-media-icons wow fadeInDown">
                     <a href="#">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
@@ -705,10 +753,10 @@
                 0:{
                     items: 1
                 },
-                600:{
-                    items: 3
+                390:{
+                    items: 2
                 },
-                1000:{
+                600:{
                     items: 3
                 }
             }
@@ -723,10 +771,16 @@
                 0:{
                     items: 1
                 },
-                600:{
-                    items: 3
+                768:{
+                    items: 1.5
                 },
-                1000:{
+                1025:{
+                    items: 2
+                },
+                1151:{
+                    items: 2.2
+                },
+                1281:{
                     items: 2.5
                 }
             }
@@ -741,7 +795,6 @@
         });
     </script>
 
-    <script></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
     <script src="js/btnAnimation.js"></script>
